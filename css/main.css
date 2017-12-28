@@ -1,0 +1,98 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0 auto; }
+
+a, a:visited {
+  color: #333; }
+
+a:hover {
+  color: #f00699; }
+
+a:active {
+  color: greenyellow; }
+
+.container {
+  margin: calc(46px + 25px) auto 0 auto; }
+
+.text-center {
+  text-align: center; }
+
+.index {
+  margin-top: calc(100vh / 3); }
+
+/* navigation bar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+ul.navbar {
+  color: #333;
+  font-family: 'Karla', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw; }
+
+li.navbar {
+  float: right; }
+
+li.nav-title {
+  float: left; }
+
+li.navbar a, p.navbar a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.nav-active {
+  font-weight: bold; }
+
+/* about - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+.id-img {
+  max-height: 400px;
+  max-width: 100%; }
+
+.about-container {
+  margin-top: calc(100vh / 5); }
+  .about-container .col-xs-6.description {
+    margin-top: 75px; }
+
+/* blog - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.blog-container {
+  height: calc(100vh);
+  width: 100%; }
+  .blog-container iframe {
+    border: none; }
+
+/* portfolio - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+.filters {
+  padding: 0 10px; }
+  .filters .option {
+    font-style: italic; }
+    .filters .option.active {
+      font-weight: bold; }
+
+.filters a:hover {
+  cursor: pointer;
+  text-decoration: line-through; }
+  .filters a:hover.art {
+    color: dodgerblue; }
+  .filters a:hover.code {
+    color: #f00699; }
+  .filters a:hover.design {
+    color: greenyellow; }
+
+.project {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 10px; }
+  .project.art {
+    background-color: dodgerblue; }
+  .project.code {
+    background-color: #f00699; }
+  .project.design {
+    background-color: greenyellow; }
+
+/*# sourceMappingURL=main.css.map */

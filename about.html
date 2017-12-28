@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <!-- style sheets -->
+    <link rel="stylesheet" href="css/flexboxgrid-6.3.1/css/flexboxgrid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('#nav').load('components/nav.html', function () {
+                $($('#nav ul li')[2]).addClass('nav-active');
+            });
+        });
+    </script>
+    <!--Font Awesome -->
+    <script src="https://use.fontawesome.com/6d24c2dec2.js"></script>
+</head>
+<body>
+<nav id="nav"></nav>
+<div class="container about-container">
+    <div class="row">
+        <div class="col-xs-6 text-center">
+            <img class="id-img" src="images/id.png"/>
+        </div>
+        <div class="col-xs-6 description">
+            <h2>Marie M. Yatsyk</h2>
+            <p>I am a junior at Northeastern University, majoring in computer science & interaction design to pursue my
+                goal of becoming a full-stack web-developer. I love
+                art and design, traveling, reading, and running.</p>
+            <a href="documents/Marie-Yatsyk-Resume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/marieyatsyk"><i class="fa fa-linkedin-square"
+                                                                 aria-hidden="true"></i></a>
+            <a href="https://github.com/maryats"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/marimyam/" target="_blank"><i class="fa fa-instagram"
+                                                                             aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

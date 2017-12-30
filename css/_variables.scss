@@ -1,5 +1,14 @@
-$main-blue :  dodgerblue; //#0000cc;
-$main-pink : #f00699;
-$main-yellow : greenyellow; //yellow;
+/* Colors */
+$main-blue: dodgerblue; //#0000cc;
+$main-pink: #f00699;
+$main-yellow: greenyellow; //yellow;
 $accent-gray: #333;
+
+/* Element Sizes */
 $portfolio-box: 200px;
+
+/* Breakpoints */
+$breakpoint-xs: 560px;
+$breakpoint-sm: 768px; //48em;
+$breakpoint-md: 992px; //62em;
+$breakpoint-lg: 1200px; //75em;

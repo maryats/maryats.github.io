@@ -30,6 +30,26 @@ a:active {
   margin-top: calc(100vh / 3);
 }
 
+.pull-right {
+  float: right;
+}
+
+.fadein, .fadeout {
+  opacity: 0;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.fadein {
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+}
+
 /* navigation bar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 ul.navbar {
@@ -37,49 +57,93 @@ ul.navbar {
   font-family: 'Karla', sans-serif;
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
-  background-color: white;
+  padding: 0;
   position: fixed;
   top: 0;
   width: 100vw;
+
+  &.responsive li {
+    float: none;
+    text-align: left;
+
+    @media (min-width: $breakpoint-xs) {
+      display: block;
+    }
+  }
+
+  li {
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+
+    @media screen and (min-width: $breakpoint-xs) {
+      float: left;
+      opacity: 1;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
 }
 
-li.navbar {
-  float: right;
-}
-
-li.nav-title {
-  float: left;
-}
-
-li.navbar a, p.navbar a {
+#nav-title {
   display: block;
-  text-align: center;
+  float: none;
   padding: 14px 16px;
-  text-decoration: none;
-}
 
-li a:hover:not(.active) {
-  //background-color: #111;
+  @media (min-width: $breakpoint-xs) {
+    float: left;
+  }
 }
 
 .nav-active {
   font-weight: bold;
 }
 
+.nav-items {
+  float: none;
+
+  @media screen and (min-width: $breakpoint-xs) {
+    float: right;
+  }
+}
+
+.hamburger {
+  &:focus {
+    outline: none;
+  }
+
+  @media (min-width: $breakpoint-xs) {
+    display: none !important;
+  }
+}
+
 /* about - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 
-.id-img {
+#id-img {
   max-height: 400px;
   max-width: 100%;
+  margin-top: -40px;
+
+  @media (min-width: $breakpoint-md) {
+    margin-top: 0;
+  }
 }
 
 .about-container {
   margin-top: calc(100vh / 5);
+}
 
-  .col-xs-6.description {
+.description {
+  text-align: center;
+  padding: 15px;
+
+  @media (min-width: $breakpoint-md) {
     margin-top: 75px;
+    text-align: left;
   }
 }
 

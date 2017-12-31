@@ -115,7 +115,8 @@ nav li {
   height: calc(100vh);
   width: 100%; }
   .blog-container iframe {
-    border: none; }
+    border: none;
+    min-width: 100%; }
 
 /* portfolio - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 .filters {

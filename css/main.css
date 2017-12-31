@@ -116,6 +116,7 @@ nav li {
   width: 100%; }
   .blog-container iframe {
     border: none;
+    width: 1px;
     min-width: 100%; }
 
 /* portfolio - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/

@@ -1,0 +1,25 @@
+/* about - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+#id-img {
+  max-height: 400px;
+  max-width: 100%;
+  margin-top: -40px;
+
+  @media (min-width: $breakpoint-md) {
+    margin-top: 0;
+  }
+}
+
+.about-container {
+  margin-top: calc(100vh / 5);
+}
+
+.description {
+  text-align: center;
+  padding: 15px;
+
+  @media (min-width: $breakpoint-md) {
+    margin-top: 75px;
+    text-align: left;
+  }
+}

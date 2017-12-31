@@ -1,0 +1,53 @@
+@import "variables";
+
+/* portfolio - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+.filters {
+  padding: 0 10px;
+
+  button {
+    border: none;
+    font-size: inherit;
+    font-style: italic;
+
+    &.active {
+      font-weight: bold;
+    }
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: line-through;
+
+      &.art {
+        color: $main-blue;
+      }
+
+      &.code {
+        color: $main-pink;
+      }
+
+      &.design {
+        color: $main-yellow;
+      }
+    }
+  }
+}
+
+.project {
+  float: left;
+  height: $portfolio-box;
+  width: $portfolio-box;
+  margin: 10px;
+
+  &.art {
+    background-color: $main-blue;
+  }
+
+  &.code {
+    background-color: $main-pink;
+  }
+
+  &.design {
+    background-color: $main-yellow;
+  }
+}

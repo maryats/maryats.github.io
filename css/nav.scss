@@ -1,0 +1,75 @@
+/* navigation bar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+nav {
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    color: #333;
+    font-family: 'Karla', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+
+    .responsive li {
+      float: none;
+      text-align: left;
+
+      @media screen and (min-width: $breakpoint-xs) {
+        display: block;
+      }
+    }
+  }
+
+  li {
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+
+    @media screen and (min-width: $breakpoint-xs) {
+      float: left;
+
+      &.hidden {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+#nav-title {
+  display: block;
+  float: none;
+  padding: 14px 16px;
+
+  @media (min-width: $breakpoint-xs) {
+    float: left;
+  }
+}
+
+.nav-active {
+  font-weight: bold;
+}
+
+.nav-items {
+  float: none;
+
+  @media screen and (min-width: $breakpoint-xs) {
+    float: right;
+  }
+}
+
+.hamburger {
+  &:focus {
+    outline: none;
+  }
+
+  @media (min-width: $breakpoint-xs) {
+    display: none !important;
+  }
+}

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <!-- style sheets -->
     <link rel="stylesheet" href="css/flexboxgrid-6.3.1/css/flexboxgrid.min.css" type="text/css">
@@ -10,33 +13,38 @@
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>
+        // nav bar
         $(function () {
             $('#nav').load('components/nav.html', function () {
                 $($('#nav ul li')[1]).addClass('nav-active');
             });
         });
 
-        var filteredBy = false;
-
-        $(function () {
-            $('a.option').click(function () {
-                var selected = $(this).text();
-                // if filtering by a new project type
-                if (filteredBy != selected) {
-                    $('.project').hide();
-                    $('.option').removeClass('active');
-                    $('.' + selected).show();
-                    $(this).addClass("active");
-                    console.log("filteredBy by: " + selected);
-                    filteredBy = selected;
-                } else {
-                    // unfilter
-                    $('.project').show();
-                    $('.option').removeClass('active');
-                    filteredBy = false;
-                }
-            })
+        $('.hidden a').click(function (e) {
+            if ($('li.hidden').css('opacity') == 0) {
+                e.preventDefault()
+            }
         });
+
+        var filteredBy = false;
+        var filterProjects = function (selected) {
+            // if filtering by a new project type
+            if (filteredBy != selected) {
+                $('.project').hide();
+                $('.filters button').removeClass('active');
+                $('.' + selected).show().addClass('active');
+                filteredBy = selected;
+            } else {
+                // unfilter
+                unFilter();
+            }
+        };
+
+        var unFilter = function () {
+            $('.project').show();
+            $('.filters button').removeClass('active');
+            filteredBy = false;
+        }
     </script>
 </head>
 <body>
@@ -45,10 +53,10 @@
     <div class="row">
         <div class="col-xs-12">
             <div class="filters">
-                <i class="fa fa-filter" aria-hidden="true"></i>
-                <a class="option code">code</a>
-                <a class="option design">design</a>
-                <a class="option art">art</a>
+                <button onclick="unFilter()" title="Show All"><i class="fa fa-filter"></i></button>
+                <button id="code" title="Show Code" class="option code" onclick="filterProjects(this.id)">code</button>
+                <button id="design" title="Show Design" class="option design" onclick="filterProjects(this.id)">design</button>
+                <button id="art" title="Show Art" class="option art" onclick="filterProjects(this.id)">art</button>
             </div>
         </div>
     </div>

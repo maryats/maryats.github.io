@@ -1,6 +1,4 @@
-/* Colors */
-/* Element Sizes */
-/* Breakpoints */
+/* utilities - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 0 auto; }
@@ -40,7 +38,9 @@ a:active {
   opacity: 0; }
 
 /* navigation bar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-ul.navbar {
+nav a {
+  text-decoration: none; }
+nav ul {
   color: #333;
   font-family: 'Karla', sans-serif;
   list-style-type: none;
@@ -50,23 +50,22 @@ ul.navbar {
   position: fixed;
   top: 0;
   width: 100vw; }
-  ul.navbar.responsive li {
+  nav ul .responsive li {
     float: none;
     text-align: left; }
-    @media (min-width: 560px) {
-      ul.navbar.responsive li {
-        display: block; } }
-  ul.navbar li {
-    background-color: white;
-    display: block;
-    text-decoration: none;
-    padding: 14px 16px; }
     @media screen and (min-width: 560px) {
-      ul.navbar li {
-        float: left;
+      nav ul .responsive li {
+        display: block; } }
+nav li {
+  background-color: white;
+  display: block;
+  text-decoration: none;
+  padding: 14px 16px; }
+  @media screen and (min-width: 560px) {
+    nav li {
+      float: left; }
+      nav li.hidden {
         opacity: 1; } }
-    ul.navbar li a {
-      text-decoration: none; }
 
 #nav-title {
   display: block;
@@ -121,20 +120,21 @@ ul.navbar {
 /* portfolio - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 .filters {
   padding: 0 10px; }
-  .filters .option {
+  .filters button {
+    border: none;
+    font-size: inherit;
     font-style: italic; }
-    .filters .option.active {
+    .filters button.active {
       font-weight: bold; }
-
-.filters a:hover {
-  cursor: pointer;
-  text-decoration: line-through; }
-  .filters a:hover.art {
-    color: dodgerblue; }
-  .filters a:hover.code {
-    color: #f00699; }
-  .filters a:hover.design {
-    color: greenyellow; }
+    .filters button:hover {
+      cursor: pointer;
+      text-decoration: line-through; }
+      .filters button:hover.art {
+        color: dodgerblue; }
+      .filters button:hover.code {
+        color: #f00699; }
+      .filters button:hover.design {
+        color: greenyellow; }
 
 .project {
   float: left;

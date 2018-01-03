@@ -5,29 +5,18 @@
     </button>
     <li id="nav-title"><a href="index">M/M/Y</a></li>
     <div class="nav-items">
-        <li class="hidden"><a href="portfolio">Projects</a></li>
-        <li class="hidden"><a href="about">About</a></li>
-        <li class="hidden"><a href="blog">Blog</a></li>
+        <li><a href="portfolio">Projects</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="blog">Blog</a></li>
     </div>
 </ul>
 
 <!-- Toggle Hamburger with jQuery -->
 <script>
     var $hamburger = $(".hamburger");
+    var $navItems = $('.nav-items');
     $hamburger.on("click", function (e) {
         $hamburger.toggleClass("is-active");
-
-        var nav = document.getElementById("nav-main");
-        var navItems = $('ul.navbar li').slice(1);
-        if (nav.className === "navbar") {
-            nav.className += " responsive";
-            navItems.removeClass("fadeout hidden").addClass("fadein");
-        } else {
-            nav.className = "navbar";
-            navItems.removeClass("fadein").addClass("fadeout hidden")
-                .on("transitionend", function () {
-                    navItems.removeClass("fadeout");
-                });
-        }
+        $navItems.toggleClass("nav-open");
     });
 </script>

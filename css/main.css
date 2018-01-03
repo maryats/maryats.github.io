@@ -117,8 +117,15 @@ nav li {
 
 /* portfolio - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 .filters {
-  padding: 0 10px; }
+  width: 90%; }
+  @media screen and (min-width: 768px) {
+    .filters {
+      width: 92%; } }
+  @media screen and (min-width: 1200px) {
+    .filters {
+      width: 91%; } }
   .filters button {
+    background-color: white;
     border: none;
     font-size: inherit;
     font-style: italic; }
@@ -134,11 +141,28 @@ nav li {
       .filters button:hover.design {
         color: greenyellow; }
 
+.project-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
 .project {
   float: left;
-  height: 200px;
-  width: 200px;
-  margin: 10px; }
+  margin: 10px;
+  width: calc(95%); }
+  .project:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%; }
+  @media screen and (min-width: 560px) {
+    .project {
+      width: 45%; } }
+  @media screen and (min-width: 768px) {
+    .project {
+      width: 30%; } }
+  @media screen and (min-width: 1200px) {
+    .project {
+      width: 22%; } }
   .project.art {
     background-color: dodgerblue; }
   .project.code {

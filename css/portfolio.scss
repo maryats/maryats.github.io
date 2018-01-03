@@ -3,9 +3,18 @@
 /* portfolio - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 
 .filters {
-  padding: 0 10px;
+  width: 90%;
+
+  @media screen and (min-width: $breakpoint-sm) {
+    width: 92%;
+  }
+
+  @media screen and (min-width: $breakpoint-lg) {
+    width: 91%;
+  }
 
   button {
+    background-color: white;
     border: none;
     font-size: inherit;
     font-style: italic;
@@ -33,11 +42,34 @@
   }
 }
 
+.project-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 .project {
   float: left;
-  height: $portfolio-box;
-  width: $portfolio-box;
   margin: 10px;
+  width: calc(95%);
+
+  &:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  @media screen and (min-width: $breakpoint-xs) {
+    width: 45%;
+  }
+
+  @media screen and (min-width: $breakpoint-sm) {
+    width: 30%;
+  }
+
+  @media screen and (min-width: $breakpoint-lg) {
+    width: 22%;
+  }
 
   &.art {
     background-color: $main-blue;

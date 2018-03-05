@@ -1,29 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blog</title>
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-    <!-- style sheets -->
-    <link rel="stylesheet" href="css/flexboxgrid-6.3.1/css/flexboxgrid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script>
-        // nav bar
-        $(function () {
-            $('#nav').load('components/nav.html', function() {
-                $($('#nav ul li')[3]).addClass('nav-active');
-            });
-        });
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog</title>
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+  <!-- style sheets -->
+  <link rel="stylesheet" href="css/flexboxgrid-6.3.1/css/flexboxgrid.min.css" type="text/css">
+  <link rel="stylesheet" href="css/hamburgers.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 <body style="overflow: hidden;">
-<nav id="nav"></nav>
+<nav id="nav">
+  <ul class="navbar" id="nav-main">
+    <button class="hamburger hamburger--squeeze pull-right" type="button">
+      <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+    </button>
+    <li id="nav-title"><a href="index">Marie Yatsyk</a></li>
+    <div class="nav-items">
+      <li><a href="portfolio">Work</a></li>
+      <li><a href="about">About</a></li>
+      <li class="active"><a href="blog">Blog</a></li>
+    </div>
+  </ul>
+</nav>
 <div class="blog-container">
-    <iframe src="https://marieyatsyk.wordpress.com" height="100%" width="100%"></iframe>
+  <iframe src="https://marieyatsyk.wordpress.com" height="100%" width="100%"></iframe>
 </div>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/nav.js"></script>
 </body>
 </html>

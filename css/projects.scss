@@ -1,0 +1,16 @@
+body {
+  &.project-page {
+    .row {
+      margin-bottom: 15px;
+    }
+  }
+
+  &.tripkick {
+    margin-top: 100px;
+
+    object {
+      height: 500px;
+      width: 600px;
+    }
+  }
+}

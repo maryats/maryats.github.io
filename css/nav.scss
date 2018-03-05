@@ -1,6 +1,8 @@
 /* navigation bar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 nav {
+  text-transform: uppercase;
+
   a {
     text-decoration: none;
   }
@@ -16,12 +18,17 @@ nav {
     position: fixed;
     top: 0;
     width: 100vw;
+    z-index: 3;
   }
 
   li {
     display: block;
     text-decoration: none;
     padding: 14px 16px;
+
+    &.active {
+      font-weight: bold;
+    }
 
     @media screen and (min-width: $breakpoint-xs) {
       float: left;
@@ -37,10 +44,6 @@ nav {
   @media (min-width: $breakpoint-xs) {
     float: left;
   }
-}
-
-.nav-active {
-  font-weight: bold;
 }
 
 .nav-items {

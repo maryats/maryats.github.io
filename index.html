@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
-    <!-- fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
-    <!-- style -->
-    <link rel="stylesheet" href="css/flexboxgrid-6.3.1/css/flexboxgrid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script>
-        // nav bar
-        $(function () {
-            $('#nav').load('components/nav.html');
-        });
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <!-- fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
+  <!-- style -->
+  <link rel="stylesheet" href="css/flexboxgrid-6.3.1/css/flexboxgrid.min.css" type="text/css">
+  <link rel="stylesheet" href="css/hamburgers.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 <body>
-<nav id="nav"></nav>
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="text-center index">this site is under construction ;^)</div>
-        </div>
+<nav id="nav">
+  <ul class="navbar" id="nav-main">
+    <button class="hamburger hamburger--squeeze pull-right" type="button">
+      <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+    </button>
+    <li id="nav-title"><a href="index">Marie Yatsyk</a></li>
+    <div class="nav-items">
+      <li><a href="portfolio">Work</a></li>
+      <li><a href="about">About</a></li>
+      <li><a href="blog">Blog</a></li>
     </div>
+  </ul>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="text-center index">this site is under construction ;^)</div>
+    </div>
+  </div>
 </div>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/nav.js"></script>
 </body>
 </html>

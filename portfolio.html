@@ -1,88 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-    <!-- style sheets -->
-    <link rel="stylesheet" href="css/flexboxgrid-6.3.1/css/flexboxgrid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <!--Font Awesome -->
-    <script src="https://use.fontawesome.com/6d24c2dec2.js"></script>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script>
-        // nav bar
-        $(function () {
-            $('#nav').load('components/nav.html', function () {
-                $($('#nav ul li')[1]).addClass('nav-active');
-            });
-        });
-
-        $('.hidden a').click(function (e) {
-            if ($('li.hidden').css('opacity') == 0) {
-                e.preventDefault()
-            }
-        });
-
-        var filteredBy = false;
-        var filterProjects = function (selected) {
-            // if filtering by a new project type
-            if (filteredBy != selected) {
-                $('.project').hide();
-                $('.filters button').removeClass('active');
-                $('.' + selected).show().addClass('active');
-                filteredBy = selected;
-            } else {
-                // unfilter
-                unFilter();
-            }
-        };
-
-        var unFilter = function () {
-            $('.project').show();
-            $('.filters button').removeClass('active');
-            filteredBy = false;
-        }
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+  <!-- style sheets -->
+  <link rel="stylesheet" href="css/flexboxgrid-6.3.1/css/flexboxgrid.min.css" type="text/css">
+  <link rel="stylesheet" href="css/hamburgers.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 <body>
-<nav id="nav"></nav>
+<nav id="nav">
+  <ul class="navbar" id="nav-main">
+    <button class="hamburger hamburger--squeeze pull-right" type="button">
+      <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+    </button>
+    <li id="nav-title"><a href="index">Marie Yatsyk</a></li>
+    <div class="nav-items">
+      <li class="active"><a href="portfolio">Work</a></li>
+      <li><a href="about">About</a></li>
+      <li><a href="blog">Blog</a></li>
+    </div>
+  </ul>
+</nav>
 <div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="filters">
-                <button onclick="unFilter()" title="Show All"><i class="fa fa-filter"></i></button>
-                <button id="code" title="Show Code" class="option code" onclick="filterProjects(this.id)">code</button>
-                <button id="design" title="Show Design" class="option design" onclick="filterProjects(this.id)">design</button>
-                <button id="art" title="Show Art" class="option art" onclick="filterProjects(this.id)">art</button>
-            </div>
-        </div>
+  <div class="project-container">
+    <div class="filters">
+      <button onclick="unFilter()" title="Show All"><i class="fa fa-filter"></i></button>
+      <button id="code" title="Show Code" class="option code" onclick="filterProjects(this.id)">code</button>
+      <button id="design" title="Show Design" class="option design" onclick="filterProjects(this.id)">design
+      </button>
+      <button id="art" title="Show Art" class="option art" onclick="filterProjects(this.id)">art</button>
     </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="project art"></div>
-            <div class="project design"></div>
-            <div class="project code"></div>
-            <div class="project art"></div>
-            <div class="project design"></div>
-            <div class="project code"></div>
-            <div class="project art"></div>
-            <div class="project design"></div>
-            <div class="project code"></div>
-            <div class="project art"></div>
-            <div class="project design"></div>
-            <div class="project code"></div>
-            <div class="project art"></div>
-            <div class="project design"></div>
-            <div class="project code"></div>
-            <div class="project art"></div>
-            <div class="project design"></div>
-            <div class="project code"></div>
-        </div>
+    <div class="project design">
+      <a href="projects/tripkick">
+        <img src="images/tripkick.gif">
+      </a>
     </div>
+    <div class="project design">
+      <a href="projects/typeface-posters">
+        <img src="images/typeface-posters/typeface-posters.gif">
+      </a>
+    </div>
+    <div class="project design">
+      <a href="projects/mindset">
+        <img src="images/mindset/mindset.gif">
+      </a>
+    </div>
+    <div class="project design">
+      <a href="projects/climate-change">
+        <img src="images/climate/climate.gif">
+      </a>
+    </div>
+    <div class="project code">
+      <a href="https://maryats.github.io/Marketing-Headline-Generator/" target="_blank">
+        <img src="images/headline-generator.gif">
+      </a>
+    </div>
+    <div class="project design">
+      <a href="projects/book-series">
+        <img src="images/bookseries/bookseries.gif">
+      </a>
+    </div>
+    <div class="project design">
+      <a href="projects/letterform">
+        <img src="images/letterform/letterform.gif">
+      </a>
+    </div>
+    <div class="project code">
+      <a href="https://github.com/maryats/Weather-App" target="_blank">
+        <img src="images/weather-app.png">
+      </a>
+    </div>
+    <div class="project code art">
+      <a href="projects/anxious-tale">
+        <img src="images/anxious-tale/anxious-tale.png">
+      </a>
+    </div>
+    <div class="project code">
+      <a href="https://maryats.github.io/Sound-Visualizer/" target="_blank">
+        <img src="images/sound-visualizer.png">
+      </a>
+    </div>
+    <div class="project art">
+      <a href="projects/form-on-the-hill">
+        <img src="images/linocut-hill/form-on-hill.gif">
+      </a>
+    </div>
+  </div>
 </div>
+<div class="social-links">
+  <a href="https://www.linkedin.com/in/marieyatsyk" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+  <a href="https://github.com/maryats" target="_blank" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+  <a href="https://www.instagram.com/marimyam/" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+</div>
+<!-- font awesome -->
+<script src="https://use.fontawesome.com/6d24c2dec2.js"></script>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/nav.js"></script>
+<script>
+  $('.hidden a').click(function (e) {
+    if ($('li.hidden').css('opacity') == 0) {
+      e.preventDefault()
+    }
+  });
+
+  var filteredBy = false;
+  var filterProjects = function (selected) {
+    // if filtering by a new project type
+    if (filteredBy != selected) {
+      $('.project').hide();
+      $('.filters button').removeClass('active');
+      $('.' + selected).show().addClass('active');
+      filteredBy = selected;
+    } else {
+      // unfilter
+      unFilter();
+    }
+  };
+
+  var unFilter = function () {
+    $('.project').show();
+    $('.filters button').removeClass('active');
+    filteredBy = false;
+  }
+</script>
 </body>
 </html>

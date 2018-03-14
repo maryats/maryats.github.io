@@ -9,8 +9,9 @@ nav {
 
   ul {
     background-color: white;
+    border-bottom: 1px dashed #ccc;
     color: #333;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     list-style-type: none;
     margin: 0;
     overflow: hidden;
@@ -39,6 +40,8 @@ nav {
 #nav-title {
   display: block;
   float: none;
+  font-weight: bold;
+  font-size: x-large;
   padding: 14px 16px;
 
   @media (min-width: $breakpoint-xs) {
@@ -49,6 +52,7 @@ nav {
 .nav-items {
   display: none;
   float: none;
+  margin-top: 5px;
 
   &.nav-open {
     display: block;
@@ -61,7 +65,7 @@ nav {
 }
 
 .hamburger {
-  margin: 0 0 -4px 0 !important;
+  margin: 7px 5px 0 0 !important;
   padding: 10px !important;
 
   &:focus {

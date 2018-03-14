@@ -11,6 +11,12 @@
 
 .about-container {
   margin-top: calc(100vh / 5);
+  margin-bottom: 100px;
+
+  h2 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
 }
 
 .description {

@@ -159,8 +159,9 @@ nav {
     .filters {
       width: 91%; } }
   .filters button {
-    background-color: white;
+    background-color: transparent;
     border: none;
+    color: black;
     font-size: inherit;
     font-style: italic; }
     .filters button.active {
@@ -179,34 +180,59 @@ nav {
   display: flex;
   flex-flow: row wrap; }
 
-.project {
+a.project {
+  border-radius: 5px;
+  display: block;
   background-size: cover;
-  box-shadow: inset 0 -4px white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
   float: left;
   margin: 10px;
-  width: calc(95%); }
-  @media screen and (min-width: 560px) {
-    .project {
-      width: calc((100% - 40px)/2); } }
-  @media screen and (min-width: 768px) {
-    .project {
-      width: calc((100% - 60px)/3); } }
-  @media screen and (min-width: 1200px) {
-    .project {
-      width: calc((100% - 80px)/4); } }
-  .project.art {
+  transition: all ease-in-out;
+  width: calc(95%);
+  height: calc(100% - 4px); }
+  a.project:hover {
+    transition: all 0.2s ease-in-out;
+    transform: translate(0px, 1px); }
+    a.project:hover .overlay .title {
+      transition: all 0.2s ease-in-out;
+      opacity: 1; }
+    a.project:hover .overlay img {
+      transition: all 0.1s ease-in-out;
+      filter: opacity(0.25); }
+  a.project.art:hover .overlay {
     background-color: dodgerblue; }
-  .project.code {
+  a.project.code:hover .overlay {
     background-color: #f00699; }
-  .project.design {
+  a.project.design:hover .overlay {
     background-color: greenyellow; }
-  .project a:hover {
-    opacity: 0.25;
-    transition: all 0.3s ease-in-out; }
-  .project img {
+  @media screen and (min-width: 560px) {
+    a.project {
+      width: calc((100% - 40px) / 2); } }
+  @media screen and (min-width: 768px) {
+    a.project {
+      width: calc((100% - 60px) / 3); } }
+  @media screen and (min-width: 1200px) {
+    a.project {
+      width: calc((100% - 80px) / 4); } }
+  a.project .overlay {
+    border-radius: inherit;
+    height: calc(100% - 4px);
+    margin-bottom: -4px;
     width: 100%; }
-  .project .title {
-    visibility: hidden; }
+  a.project img {
+    border-radius: inherit;
+    margin-bottom: -4px; }
+  a.project .title {
+    color: white;
+    left: 50%;
+    min-width: 75%;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    z-index: 1; }
 
 body.project-page .row {
   margin-bottom: 15px; }

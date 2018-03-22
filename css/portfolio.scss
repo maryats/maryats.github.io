@@ -14,8 +14,9 @@
   }
 
   button {
-    background-color: white;
+    background-color: transparent;
     border: none;
+    color: black;
     font-size: inherit;
     font-style: italic;
 
@@ -48,51 +49,78 @@
   //justify-content: center;
 }
 
-.project {
+a.project {
+  border-radius: 5px;
+  display: block;
   background-size: cover;
-  box-shadow: inset 0 -4px white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
   float: left;
   margin: 10px;
+  transition: all ease-in-out;
   width: calc(95%);
+  height: calc(100% - 4px);
 
-  @media screen and (min-width: $breakpoint-xs) {
-    width: calc((100% - 40px)/2);
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    transform: translate(0px, 1px);
+
+    .overlay .title {
+      transition: all 0.2s ease-in-out;
+      opacity: 1;
+    }
+
+    .overlay img {
+      transition: all 0.1s ease-in-out;
+      filter: opacity(.25);
+    }
   }
 
-  @media screen and (min-width: $breakpoint-sm) {
-    width: calc((100% - 60px)/3);
-  }
-
-  @media screen and (min-width: $breakpoint-lg) {
-    width: calc((100% - 80px)/4);
-  }
-
-  &.art {
+  &.art:hover .overlay {
     background-color: $main-blue;
   }
 
-  &.code {
+  &.code:hover .overlay {
     background-color: $main-pink;
   }
 
-  &.design {
+  &.design:hover .overlay {
     background-color: $main-yellow;
   }
 
-  a:hover {
-    opacity: 0.25;
-    transition: all 0.3s ease-in-out;
+  @media screen and (min-width: $breakpoint-xs) {
+    width: calc((100% - 40px) / 2);
   }
 
-  img {
+  @media screen and (min-width: $breakpoint-sm) {
+    width: calc((100% - 60px) / 3);
+  }
+
+  @media screen and (min-width: $breakpoint-lg) {
+    width: calc((100% - 80px) / 4);
+  }
+
+  .overlay {
+    border-radius: inherit;
+    height: calc(100% - 4px);
+    margin-bottom: -4px;
     width: 100%;
   }
 
+  img {
+    border-radius: inherit;
+    margin-bottom: -4px;
+  }
+
   .title {
-    visibility: hidden;
-
-    &:hover {
-
-    }
+    color: white;
+    left: 50%;
+    min-width: 75%;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0,0,0,.2);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    z-index: 1;
   }
 }

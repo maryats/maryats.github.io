@@ -28,7 +28,7 @@ a {
     .social-links a:visited {
       color: #ddd; }
   a:hover, .social-links a:hover {
-    color: #f00699; }
+    color: #0000cc; }
   a:active, .social-links a:active {
     color: greenyellow; }
 
@@ -170,18 +170,17 @@ nav {
       cursor: pointer;
       text-decoration: line-through; }
       .filters button:hover.art {
-        color: dodgerblue; }
+        color: #0000cc; }
       .filters button:hover.code {
-        color: #f00699; }
-      .filters button:hover.design {
         color: greenyellow; }
+      .filters button:hover.design {
+        color: #f00699; }
 
 .project-container {
   display: flex;
   flex-flow: row wrap; }
 
 a.project {
-  border-radius: 5px;
   display: block;
   background-size: cover;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
@@ -190,21 +189,6 @@ a.project {
   transition: all ease-in-out;
   width: calc(95%);
   height: calc(100% - 4px); }
-  a.project:hover {
-    transition: all 0.2s ease-in-out;
-    transform: translate(0px, 1px); }
-    a.project:hover .overlay .title {
-      transition: all 0.2s ease-in-out;
-      opacity: 1; }
-    a.project:hover .overlay img {
-      transition: all 0.1s ease-in-out;
-      filter: opacity(0.25); }
-  a.project.art:hover .overlay {
-    background-color: dodgerblue; }
-  a.project.code:hover .overlay {
-    background-color: #f00699; }
-  a.project.design:hover .overlay {
-    background-color: greenyellow; }
   @media screen and (min-width: 560px) {
     a.project {
       width: calc((100% - 40px) / 2); } }
@@ -233,6 +217,24 @@ a.project {
     transform: translate(-50%, -50%);
     top: 50%;
     z-index: 1; }
+  a.project:hover {
+    transition: all 0.2s ease-in-out;
+    transform: translate(0px, 1px); }
+    a.project:hover .overlay .title {
+      transition: all 0.2s ease-in-out;
+      opacity: 1; }
+    a.project:hover .overlay img {
+      transition: all 0.1s ease-in-out;
+      filter: opacity(0.25); }
+    a.project:hover.art .overlay {
+      background-color: black;
+      box-shadow: inset 15px 0 #0000cc, inset 0 15px #0000cc, inset -15px 0 #0000cc, inset 0 -15px #0000cc; }
+    a.project:hover.code .overlay {
+      background-color: black;
+      box-shadow: inset 15px 0 greenyellow, inset 0 15px greenyellow, inset -15px 0 greenyellow, inset 0 -15px greenyellow; }
+    a.project:hover.design .overlay {
+      background-color: black;
+      box-shadow: inset 15px 0 #f00699, inset 0 15px #f00699, inset -15px 0 #f00699, inset 0 -15px #f00699; }
 
 body.project-page .row {
   margin-bottom: 15px; }

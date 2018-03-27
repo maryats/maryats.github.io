@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 /* projects - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 
@@ -29,15 +30,15 @@
       text-decoration: line-through;
 
       &.art {
-        color: $main-blue;
+        color: $art-color;
       }
 
       &.code {
-        color: $main-pink;
+        color: $code-color;
       }
 
       &.design {
-        color: $main-yellow;
+        color: $design-color;
       }
     }
   }
@@ -50,7 +51,6 @@
 }
 
 a.project {
-  border-radius: 5px;
   display: block;
   background-size: cover;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
@@ -59,33 +59,6 @@ a.project {
   transition: all ease-in-out;
   width: calc(95%);
   height: calc(100% - 4px);
-
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    transform: translate(0px, 1px);
-
-    .overlay .title {
-      transition: all 0.2s ease-in-out;
-      opacity: 1;
-    }
-
-    .overlay img {
-      transition: all 0.1s ease-in-out;
-      filter: opacity(.25);
-    }
-  }
-
-  &.art:hover .overlay {
-    background-color: $main-blue;
-  }
-
-  &.code:hover .overlay {
-    background-color: $main-pink;
-  }
-
-  &.design:hover .overlay {
-    background-color: $main-yellow;
-  }
 
   @media screen and (min-width: $breakpoint-xs) {
     width: calc((100% - 40px) / 2);
@@ -122,5 +95,38 @@ a.project {
     transform: translate(-50%, -50%);
     top: 50%;
     z-index: 1;
+  }
+
+  &:hover {
+    $box-shadow-size: 15px;
+    transition: all 0.2s ease-in-out;
+    transform: translate(0px, 1px);
+
+    .overlay {
+      .title {
+        transition: all 0.2s ease-in-out;
+        opacity: 1;
+      }
+
+      img {
+        transition: all 0.1s ease-in-out;
+        filter: opacity(.25);
+      }
+    }
+
+    &.art .overlay {
+      background-color: black;
+      @include inner-box-shadow($box-shadow-size, $art-color);
+    }
+
+    &.code .overlay {
+      background-color: black;
+      @include inner-box-shadow($box-shadow-size, $code-color);
+    }
+
+    &.design .overlay {
+      background-color: black;
+      @include inner-box-shadow($box-shadow-size, $design-color);
+    }
   }
 }

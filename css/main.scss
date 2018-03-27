@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 /* utilities - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 body {
@@ -26,14 +27,15 @@ img {
 }
 
 a {
-  color: $accent-gray;
+  $link-color: $accent-gray;
+  color: $link-color;
 
-  .social-links &{
+  .social-links & {
     color: #ddd;
   }
 
   &:visited {
-    color: $accent-gray;
+    color: $link-color;
 
     .social-links & {
       color: #ddd;
@@ -41,7 +43,7 @@ a {
   }
 
   &:hover, .social-links &:hover {
-    color: $main-pink;
+    color: $main-blue;
   }
 
   &:active, .social-links &:active {

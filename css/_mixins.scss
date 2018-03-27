@@ -1,0 +1,6 @@
+@mixin inner-box-shadow($size, $color) {
+  box-shadow: inset $size 0 $color,
+  inset 0 $size $color,
+  inset -1*$size 0 $color,
+  inset 0 -1*$size $color;
+}

@@ -1,4 +1,9 @@
 /* utilities - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0; }
+
 body {
   font-family: 'Source Code Pro', monospace;
   margin: 0 auto; }
@@ -59,6 +64,48 @@ a {
 .fadein {
   opacity: 1; }
 
+.drawing-instructions {
+  bottom: 0;
+  color: #ccc;
+  font-size: xx-small;
+  margin: 0 auto 5px;
+  position: absolute;
+  text-align: center;
+  width: 100%; }
+
+.home-nav {
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  transition: box-shadow 0.2s ease;
+  align-items: center;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  flex-direction: column;
+  height: 250px;
+  left: calc(50% - 250px /2);
+  top: calc(46vh - 250px / 2);
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  width: 250px; }
+  .home-nav a, .home-nav a:visited {
+    color: white;
+    text-decoration: none; }
+  .home-nav a:hover {
+    font-weight: bold; }
+  .home-nav ul {
+    list-style-type: none;
+    padding: 0; }
+  .home-nav .nav-title {
+    display: inline-block;
+    margin: 95px auto 0;
+    width: 100%; }
+    @media (min-width: 560px) {
+      .home-nav .nav-title {
+        float: none; } }
+  .home-nav p.nav-link {
+    width: 100px; }
+
 /* navigation bar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 nav {
   text-transform: uppercase; }
@@ -87,14 +134,14 @@ nav {
       nav li {
         float: left; } }
 
-#nav-title {
+.nav-title, #nav-title {
   display: block;
   float: none;
   font-weight: bold;
   font-size: x-large;
-  padding: 14px 16px; }
+  text-transform: uppercase; }
   @media (min-width: 560px) {
-    #nav-title {
+    .nav-title, #nav-title {
       float: left; } }
 
 .nav-items {
@@ -119,6 +166,8 @@ nav {
 
 /* about - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 #id-img {
+  border: 1px dashed #ccc;
+  border-radius: 50%;
   max-width: 400px;
   margin-top: -40px; }
   @media (min-width: 992px) {
@@ -183,10 +232,8 @@ nav {
 a.project {
   display: block;
   background-size: cover;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
   float: left;
   margin: 10px;
-  transition: all ease-in-out;
   width: calc(95%);
   height: calc(100% - 4px); }
   @media screen and (min-width: 560px) {
@@ -205,7 +252,9 @@ a.project {
     width: 100%; }
   a.project img {
     border-radius: inherit;
-    margin-bottom: -4px; }
+    margin-bottom: -4px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+    transition: box-shadow 0.2s ease; }
   a.project .title {
     color: white;
     left: 50%;
@@ -217,24 +266,17 @@ a.project {
     transform: translate(-50%, -50%);
     top: 50%;
     z-index: 1; }
-  a.project:hover {
-    transition: all 0.2s ease-in-out;
-    transform: translate(0px, 1px); }
-    a.project:hover .overlay .title {
-      transition: all 0.2s ease-in-out;
-      opacity: 1; }
-    a.project:hover .overlay img {
-      transition: all 0.1s ease-in-out;
-      filter: opacity(0.25); }
-    a.project:hover.art .overlay {
-      background-color: black;
-      box-shadow: inset 15px 0 #0000cc, inset 0 15px #0000cc, inset -15px 0 #0000cc, inset 0 -15px #0000cc; }
-    a.project:hover.code .overlay {
-      background-color: black;
-      box-shadow: inset 15px 0 greenyellow, inset 0 15px greenyellow, inset -15px 0 greenyellow, inset 0 -15px greenyellow; }
-    a.project:hover.design .overlay {
-      background-color: black;
-      box-shadow: inset 15px 0 #f00699, inset 0 15px #f00699, inset -15px 0 #f00699, inset 0 -15px #f00699; }
+  a.project:hover img {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 8px 0px rgba(0, 0, 0, 0.24); }
+  a.project:hover.art .overlay {
+    background-color: black;
+    box-shadow: inset 15px 0 #0000cc, inset 0 15px #0000cc, inset -15px 0 #0000cc, inset 0 -15px #0000cc; }
+  a.project:hover.code .overlay {
+    background-color: black;
+    box-shadow: inset 15px 0 greenyellow, inset 0 15px greenyellow, inset -15px 0 greenyellow, inset 0 -15px greenyellow; }
+  a.project:hover.design .overlay {
+    background-color: black;
+    box-shadow: inset 15px 0 #f00699, inset 0 15px #f00699, inset -15px 0 #f00699, inset 0 -15px #f00699; }
 
 body.project-page .row {
   margin-bottom: 15px; }

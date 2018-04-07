@@ -53,10 +53,8 @@
 a.project {
   display: block;
   background-size: cover;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
   float: left;
   margin: 10px;
-  transition: all ease-in-out;
   width: calc(95%);
   height: calc(100% - 4px);
 
@@ -82,6 +80,7 @@ a.project {
   img {
     border-radius: inherit;
     margin-bottom: -4px;
+    @include resting-box-shadow;
   }
 
   .title {
@@ -99,21 +98,11 @@ a.project {
 
   &:hover {
     $box-shadow-size: 15px;
-    transition: all 0.2s ease-in-out;
-    transform: translate(0px, 1px);
 
-    .overlay {
-      .title {
-        transition: all 0.2s ease-in-out;
-        opacity: 1;
-      }
-
-      img {
-        transition: all 0.1s ease-in-out;
-        filter: opacity(.25);
-      }
+    img {
+      @include hover-box-shadow;
     }
-
+    
     &.art .overlay {
       background-color: black;
       @include inner-box-shadow($box-shadow-size, $art-color);

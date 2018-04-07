@@ -2,6 +2,12 @@
 @import "mixins";
 
 /* utilities - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
 body {
   font-family: 'Source Code Pro', monospace;
   margin: 0 auto;
@@ -83,6 +89,61 @@ a {
 
 .fadein {
   opacity: 1;
+}
+
+.drawing-instructions {
+  bottom: 0;
+  color: #ccc;
+  font-size: xx-small;
+  margin: 0 auto 5px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.home-nav {
+  $circumference: 250px;
+  @include resting-box-shadow;
+  align-items: center;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  flex-direction: column;
+  height: $circumference;
+  left: calc(50% - #{$circumference} /2);
+  top: calc(46vh - #{$circumference} / 2);
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  width: $circumference;
+
+  a, a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .nav-title {
+    display: inline-block;
+    margin: 95px auto 0;
+    width: 100%;
+
+    @media (min-width: $breakpoint-xs) {
+      float: none;
+    }
+  }
+
+  p.nav-link {
+    width: 100px;
+  }
 }
 
 @import "nav.scss";

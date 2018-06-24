@@ -1,10 +1,16 @@
+@import "variables";
+
 /* navigation bar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 nav {
   text-transform: uppercase;
 
   a {
-    text-decoration: none;
+    color: black;
+
+    &:visited {
+      color: black;
+    }
   }
 
   ul {
@@ -37,16 +43,35 @@ nav {
   }
 }
 
-.nav-title, #nav-title {
-  display: block;
+.nav-brand {
+  align-items: center;
+  display: flex;
   float: none;
-  font-weight: bold;
-  font-size: x-large;
-  text-transform: uppercase;
+  height: 58px;
+  width: fit-content;
+  padding: 0 16px;
 
   @media (min-width: $breakpoint-xs) {
     float: left;
   }
+
+  &:hover .nav-title {
+    display: inline-block;
+  }
+}
+
+.nav-logo {
+  height: 40px;
+  margin-bottom: -3px;
+  width: 40px;
+}
+
+.nav-title {
+  display: none;
+  font-weight: bold;
+  font-size: x-large;
+  margin-left: 8px;
+  text-transform: uppercase;
 }
 
 .nav-items {

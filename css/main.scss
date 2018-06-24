@@ -6,11 +6,17 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
+  position: absolute;
 }
 
 body {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Libre Franklin', sans-serif;
   margin: 0 auto;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
 }
 
 ::selection {
@@ -18,10 +24,14 @@ body {
   color: white;
 }
 
+:focus {
+  outline: 1px dashed #ccc;
+}
+
 button {
   background: black;
   color: white;
-  font-family: inherit;
+  font-family: 'Source Code Pro', monospace;
   font-size: inherit;
   border: none;
   border-radius: 5px;
@@ -33,42 +43,34 @@ img {
 }
 
 a {
-  $link-color: $accent-gray;
   color: $link-color;
-
-  .social-links & {
-    color: #ddd;
-  }
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
 
   &:visited {
     color: $link-color;
-
-    .social-links & {
-      color: #ddd;
-    }
   }
 
-  &:hover, .social-links &:hover {
-    color: $main-blue;
+  &:hover, &:active {
+    color: $link-hover-color;
+    font-weight: bold;
   }
-
-  &:active, .social-links &:active {
-    color: $main-yellow;
-  }
-}
-
-.social-links {
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 30px;
 }
 
 .container {
-  margin: calc(50px + 25px) auto 30px auto;
+  margin: $header-height auto 0;
+
+  @media (max-width: $breakpoint-sm) {
+    padding: 0 10px;
+  }
 }
 
 .text-center {
   text-align: center;
+}
+
+.center-content {
+  justify-content: center;
 }
 
 .index {
@@ -77,6 +79,11 @@ a {
 
 .pull-right {
   float: right;
+}
+
+.align-bottom {
+  display: flex;
+  align-items: flex-end;
 }
 
 .fadein, .fadeout {
@@ -101,52 +108,9 @@ a {
   width: 100%;
 }
 
-.home-nav {
-  $circumference: 250px;
-  @include resting-box-shadow;
-  align-items: center;
-  background-color: black;
-  border-radius: 50%;
-  color: white;
-  flex-direction: column;
-  height: $circumference;
-  left: calc(50% - #{$circumference} /2);
-  top: calc(46vh - #{$circumference} / 2);
-  margin: 0 auto;
-  position: absolute;
-  text-align: center;
-  width: $circumference;
-
-  a, a:visited {
-    color: white;
-    text-decoration: none;
-  }
-
-  a:hover {
-    font-weight: bold;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  .nav-title {
-    display: inline-block;
-    margin: 95px auto 0;
-    width: 100%;
-
-    @media (min-width: $breakpoint-xs) {
-      float: none;
-    }
-  }
-
-  p.nav-link {
-    width: 100px;
-  }
-}
-
+@import "social-links.scss";
 @import "nav.scss";
+@import "index.scss";
 @import "about.scss";
 @import "blog.scss";
 @import "portfolio.scss";

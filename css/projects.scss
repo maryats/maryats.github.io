@@ -1,16 +1,42 @@
 body {
   &.project-page {
+
+    @media (min-width: $breakpoint-lg) {
+      .container {
+        max-width: 75%;
+      }
+    }
+
     .row {
       margin-bottom: 15px;
     }
   }
 
   &.tripkick {
-    margin-top: 100px;
-
     object {
       height: 500px;
       width: 600px;
     }
+  }
+}
+
+.art-label {
+  font-style: italic;
+}
+
+.spooky-fm {
+  .iframe-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
   }
 }

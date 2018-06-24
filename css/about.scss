@@ -3,7 +3,7 @@
 #id-img {
   border: 1px dashed #ccc;
   border-radius: 50%;
-  max-width: 400px;
+  max-width: 370px;
   margin-top: -40px;
 
   @media (min-width: $breakpoint-md) {
@@ -12,21 +12,34 @@
 }
 
 .about-container {
-  margin-top: calc(100vh / 5);
-  margin-bottom: 100px;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  height: calc(100% - 110px);
+  justify-content: center;
+  margin-top: 110px;
 
   h2 {
-    letter-spacing: 2px;
     text-transform: uppercase;
+  }
+
+  .row {
+    padding-top: 25px;
+  }
+
+  .description-col {
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 }
 
 .description {
   text-align: center;
-  padding: 15px;
+  max-width: 500px;
 
   @media (min-width: $breakpoint-md) {
-    margin-top: 75px;
+    margin-top: -20px;
     text-align: left;
   }
 }

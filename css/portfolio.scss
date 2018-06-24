@@ -27,27 +27,22 @@
 
     &:hover {
       cursor: pointer;
-      text-decoration: line-through;
-
-      &.art {
-        color: $art-color;
-      }
-
-      &.code {
-        color: $code-color;
-      }
-
-      &.design {
-        color: $design-color;
-      }
+      font-weight: bold;
     }
   }
 }
 
-.project-container {
+#clear-filters {
+  min-width: 35px;
+}
+
+.portfolio-container {
   display: flex;
   flex-flow: row wrap;
-  //justify-content: center;
+}
+
+.project-container {
+
 }
 
 a.project {
@@ -102,7 +97,7 @@ a.project {
     img {
       @include hover-box-shadow;
     }
-    
+
     &.art .overlay {
       background-color: black;
       @include inner-box-shadow($box-shadow-size, $art-color);

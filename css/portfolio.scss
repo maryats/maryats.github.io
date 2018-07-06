@@ -46,8 +46,9 @@
 }
 
 a.project {
-  display: block;
   background-size: cover;
+  border-radius: 5%;
+  display: block;
   float: left;
   margin: 10px;
   width: calc(95%);
@@ -92,25 +93,8 @@ a.project {
   }
 
   &:hover {
-    $box-shadow-size: 15px;
-
     img {
       @include hover-box-shadow;
-    }
-
-    &.art .overlay {
-      background-color: black;
-      @include inner-box-shadow($box-shadow-size, $art-color);
-    }
-
-    &.code .overlay {
-      background-color: black;
-      @include inner-box-shadow($box-shadow-size, $code-color);
-    }
-
-    &.design .overlay {
-      background-color: black;
-      @include inner-box-shadow($box-shadow-size, $design-color);
     }
   }
 }

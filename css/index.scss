@@ -50,6 +50,10 @@
   width: fit-content;
 }
 
+.circle, .cross-hair, .pencil, .smiley {
+  font-family: "Arial", sans-serif;
+}
+
 .left-top {
   margin: 5%;
 
@@ -99,7 +103,6 @@
   }
 
   .smiley {
-    font-family: "Libre Franklin";
     font-size: 45px;
     margin: 0;
     position: absolute;

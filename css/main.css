@@ -13,6 +13,9 @@ p {
   font-size: 0.9rem;
   line-height: 1.4rem; }
 
+.top-description p {
+  margin-top: 0; }
+
 ::selection {
   background: #333;
   color: white; }
@@ -43,7 +46,7 @@ a {
     font-weight: bold; }
 
 .container {
-  margin: 75px auto 0; }
+  margin: 80px auto 0; }
   @media (max-width: 768px) {
     .container {
       padding: 0 10px; } }
@@ -51,7 +54,7 @@ a {
 .text-center {
   text-align: center; }
 
-.center-content {
+.center-h {
   justify-content: center; }
 
 .index {
@@ -63,6 +66,10 @@ a {
 .align-bottom {
   display: flex;
   align-items: flex-end; }
+
+.center-v {
+  display: flex;
+  align-items: center; }
 
 .fadein, .fadeout {
   opacity: 0;
@@ -213,6 +220,9 @@ nav {
   position: absolute;
   width: fit-content; }
 
+.circle, .cross-hair, .pencil, .smiley {
+  font-family: "Arial", sans-serif; }
+
 .left-top {
   margin: 5%; }
   .left-top .asterisk {
@@ -245,7 +255,6 @@ nav {
   .left-bottom .designer {
     margin-left: 50px; }
   .left-bottom .smiley {
-    font-family: "Libre Franklin";
     font-size: 45px;
     margin: 0;
     position: absolute;
@@ -338,8 +347,9 @@ nav {
   flex-flow: row wrap; }
 
 a.project {
-  display: block;
   background-size: cover;
+  border-radius: 5%;
+  display: block;
   float: left;
   margin: 10px;
   width: calc(95%);
@@ -376,15 +386,6 @@ a.project {
     z-index: 1; }
   a.project:hover img {
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 8px 0px rgba(0, 0, 0, 0.24); }
-  a.project:hover.art .overlay {
-    background-color: black;
-    box-shadow: inset 15px 0 #0000cc, inset 0 15px #0000cc, inset -15px 0 #0000cc, inset 0 -15px #0000cc; }
-  a.project:hover.code .overlay {
-    background-color: black;
-    box-shadow: inset 15px 0 greenyellow, inset 0 15px greenyellow, inset -15px 0 greenyellow, inset 0 -15px greenyellow; }
-  a.project:hover.design .overlay {
-    background-color: black;
-    box-shadow: inset 15px 0 #f00699, inset 0 15px #f00699, inset -15px 0 #f00699, inset 0 -15px #f00699; }
 
 @media (min-width: 1200px) {
   body.project-page .container {

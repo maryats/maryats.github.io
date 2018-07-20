@@ -413,8 +413,32 @@ body.tripkick object {
 .spooky-fm .iframe-wrapper {
   padding-top: 56.25%; }
 
+.tripkick h4 {
+  margin-bottom: 0; }
 .tripkick .iframe-wrapper {
   padding-top: 82%; }
+.tripkick .mobile-1 {
+  transform: scale(0.7);
+  transform-origin: 0 0; }
+.tripkick .invision-prototypes .col-xs-12 {
+  max-height: 640px; }
+@media (min-width: 768px) {
+  .tripkick .invision-prototypes .col-xs-12 {
+    max-height: 420px; }
+  .tripkick .mobile-1 {
+    margin-top: -10px;
+    transform: scale(0.47); } }
+@media (min-width: 992px) {
+  .tripkick .invision-prototypes .col-xs-12 {
+    max-height: 550px; }
+  .tripkick .mobile-1 {
+    transform: scale(0.6);
+    margin-top: -15px; } }
+@media (min-width: 1200px) {
+  .tripkick .invision-prototypes .col-xs-12 {
+    max-height: 600px; }
+  .tripkick .mobile-1 {
+    transform: scale(0.66); } }
 
 .marketing-headlines .iframe-wrapper,
 .sound-visualizer .iframe-wrapper,

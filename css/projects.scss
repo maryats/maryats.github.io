@@ -42,9 +42,57 @@ body {
   padding-top: 56.25%;
 }
 
-.tripkick .iframe-wrapper {
-  padding-top: 82%;
+.tripkick  {
+  h4 {
+    margin-bottom: 0;
+  }
+
+  .iframe-wrapper {
+    padding-top: 82%;
+  }
+
+  .mobile-1 {
+    transform: scale(0.7);
+    transform-origin: 0 0;
+  }
+
+  .invision-prototypes .col-xs-12 {
+    max-height: 640px;
+  }
+
+  @media (min-width: $breakpoint-sm) {
+    .invision-prototypes .col-xs-12 {
+      max-height: 420px;
+    }
+
+    .mobile-1 {
+      margin-top: -10px;
+      transform: scale(0.47);
+    }
+  }
+
+  @media (min-width: $breakpoint-md) {
+    .invision-prototypes .col-xs-12 {
+      max-height: 550px;
+    }
+
+    .mobile-1 {
+      transform: scale(0.6);
+      margin-top: -15px;
+    }
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    .invision-prototypes .col-xs-12 {
+      max-height: 600px;
+    }
+
+    .mobile-1 {
+      transform: scale(0.66);
+    }
+  }
 }
+
 
 .marketing-headlines,
 .sound-visualizer,

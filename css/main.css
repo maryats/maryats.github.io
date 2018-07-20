@@ -116,7 +116,7 @@ nav {
       color: black; }
   nav ul {
     background-color: white;
-    border-bottom: 1px dashed #ccc;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.05);
     color: #333;
     font-family: 'Source Code Pro', monospace;
     list-style-type: none;
@@ -399,16 +399,55 @@ body.tripkick object {
 .art-label {
   font-style: italic; }
 
-.spooky-fm .iframe-wrapper {
+.iframe-wrapper {
   position: relative;
-  overflow: hidden;
+  overflow: hidden; }
+  .iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; }
+
+.spooky-fm .iframe-wrapper {
   padding-top: 56.25%; }
-.spooky-fm iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0; }
+
+.tripkick h4 {
+  margin-bottom: 0; }
+.tripkick .iframe-wrapper {
+  padding-top: 82%; }
+.tripkick .mobile-1 {
+  transform: scale(0.7);
+  transform-origin: 0 0; }
+.tripkick .invision-prototypes .col-xs-12 {
+  max-height: 640px; }
+@media (min-width: 768px) {
+  .tripkick .invision-prototypes .col-xs-12 {
+    max-height: 420px; }
+  .tripkick .mobile-1 {
+    margin-top: -10px;
+    transform: scale(0.47); } }
+@media (min-width: 992px) {
+  .tripkick .invision-prototypes .col-xs-12 {
+    max-height: 550px; }
+  .tripkick .mobile-1 {
+    transform: scale(0.6);
+    margin-top: -15px; } }
+@media (min-width: 1200px) {
+  .tripkick .invision-prototypes .col-xs-12 {
+    max-height: 600px; }
+  .tripkick .mobile-1 {
+    transform: scale(0.66); } }
+
+.marketing-headlines .iframe-wrapper,
+.sound-visualizer .iframe-wrapper,
+.weather-app .iframe-wrapper {
+  padding-top: 75%; }
+  @media (max-width: 560px) {
+    .marketing-headlines .iframe-wrapper,
+    .sound-visualizer .iframe-wrapper,
+    .weather-app .iframe-wrapper {
+      padding-top: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

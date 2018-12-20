@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Art on Marie Yatsyk</title>
+    <link>http://marieyatsyk.com/tags/art/</link>
+    <description>Recent content in Art on Marie Yatsyk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Nov 2018 19:30:54 -0500</lastBuildDate>
+    
+	<atom:link href="http://marieyatsyk.com/tags/art/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Make Jam</title>
+      <link>http://marieyatsyk.com/portfolio/jam/</link>
+      <pubDate>Tue, 13 Nov 2018 19:30:54 -0500</pubDate>
+      
+      <guid>http://marieyatsyk.com/portfolio/jam/</guid>
+      <description>This poster was created for the information design class at Northeastern University. The goal was to show a process that had at least 10 steps, using as few words as possible. I used watercolors to illustrate each step of the process.
+Colophon: Playfair Display</description>
+    </item>
+    
+    <item>
+      <title>Spooky FM Video Game</title>
+      <link>http://marieyatsyk.com/portfolio/spookyfm/</link>
+      <pubDate>Sun, 22 Jan 2017 00:56:22 -0500</pubDate>
+      
+      <guid>http://marieyatsyk.com/portfolio/spookyfm/</guid>
+      <description>Title screen art by R. Giraud     During the 2017 Global Game Jam, I worked on a team with six other students to build a video game from scratch in 48 hours.  We created Spooky FM, a 2D side-scrolling survival game where you play as a radio DJ who tries to appease an influx of monsters by playing their favorite music. Battle your station’s awful WiFI connection and your own caffeine dependency while making sure to fulfill audience requests to keep the ratings up!</description>
+    </item>
+    
+    <item>
+      <title>Northeastern University T-Shirt Design</title>
+      <link>http://marieyatsyk.com/portfolio/neu-shirt/</link>
+      <pubDate>Fri, 01 Apr 2016 00:51:19 -0500</pubDate>
+      
+      <guid>http://marieyatsyk.com/portfolio/neu-shirt/</guid>
+      <description>  Created for a contest organized by the Saint Stephen Street and Huntington (S.S. Huntington) dorms at Northeastern University.
+  Process     </description>
+    </item>
+    
+    <item>
+      <title>Creative Coding Experiments</title>
+      <link>http://marieyatsyk.com/portfolio/creative-coding-experiments/</link>
+      <pubDate>Wed, 23 Dec 2015 01:08:53 -0500</pubDate>
+      
+      <guid>http://marieyatsyk.com/portfolio/creative-coding-experiments/</guid>
+      <description> Just a silly self-portrait created using canvas shapes. Try clicking my face!
+   A zen, randomly-generated pattern inspired by a mermaid&#39;s scales.
+  </description>
+    </item>
+    
+    <item>
+      <title>Anxious Tale</title>
+      <link>http://marieyatsyk.com/portfolio/anxious-tale/</link>
+      <pubDate>Mon, 30 Nov 2015 20:32:08 -0500</pubDate>
+      
+      <guid>http://marieyatsyk.com/portfolio/anxious-tale/</guid>
+      <description> This interactive narrative was created in response to the prompt &#34;elicit an emotion.&#34; I chose to explore the sensation of social anxiety. I also wanted to challenge myself to see if I could create a sense of unease and discomfort through very simple ASCII art-like illustrations.   Experience the story   </description>
+    </item>
+    
+    <item>
+      <title>Vector Art Experiments</title>
+      <link>http://marieyatsyk.com/portfolio/vector-art/</link>
+      <pubDate>Tue, 22 Sep 2015 01:05:30 -0500</pubDate>
+      
+      <guid>http://marieyatsyk.com/portfolio/vector-art/</guid>
+      <description>A portrait of one of my favorite musicians: Dessa.
+      -- -- --   -- -- -- Each flower was meticulously drawn using tiny straight lines, as a challenge in using the Adobe Illustrator pen tool without drawing curves.
+  </description>
+    </item>
+    
+    <item>
+      <title>There the form stood, motionless as the hill beneath.</title>
+      <link>http://marieyatsyk.com/portfolio/linocut-hill/</link>
+      <pubDate>Fri, 17 Jan 2014 00:46:18 -0500</pubDate>
+      
+      <guid>http://marieyatsyk.com/portfolio/linocut-hill/</guid>
+      <description>This print was inspired by a passage in Thomas Hardy’s Return of the Native. It describes the lone figure of Eustacia Vye standing silhouetted on a barrow, while in the distance the other villages light bonfires, one by one, all across the heath.   This project was my first foray into linoleum printmaking, and it enabled me to play around with different color combinations as a way of conveying different atmospheres.</description>
+    </item>
+    
+  </channel>
+</rss>

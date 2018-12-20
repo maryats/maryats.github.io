@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Narrative on Marie Yatsyk</title>
+    <link>http://marieyatsyk.com/tags/narrative/</link>
+    <description>Recent content in Narrative on Marie Yatsyk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Nov 2015 20:32:08 -0500</lastBuildDate>
+    
+	<atom:link href="http://marieyatsyk.com/tags/narrative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Anxious Tale</title>
+      <link>http://marieyatsyk.com/portfolio/anxious-tale/</link>
+      <pubDate>Mon, 30 Nov 2015 20:32:08 -0500</pubDate>
+      
+      <guid>http://marieyatsyk.com/portfolio/anxious-tale/</guid>
+      <description> This interactive narrative was created in response to the prompt &#34;elicit an emotion.&#34; I chose to explore the sensation of social anxiety. I also wanted to challenge myself to see if I could create a sense of unease and discomfort through very simple ASCII art-like illustrations.   Experience the story   </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2018-12-18T18:33:03-05:00
-draft: true
+draft: false
 ---
 
 ## Marie Yatsyk

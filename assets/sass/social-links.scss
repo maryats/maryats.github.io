@@ -1,0 +1,30 @@
+.social-links {
+  align-self: flex-end;
+  min-height: 25px;
+  padding: 15px 0 20px;
+  text-align: center;
+  width: 100%;
+
+  a {
+    display: inline-block;
+    height: 20px;
+
+    @media (max-width: $breakpoint-xs) {
+      height: 30px;
+    }
+
+    svg {
+      fill: #ddd;
+      height: 100%;
+
+
+      &:visited {
+        fill: #ddd;
+      }
+
+      &:hover, &:active {
+        fill: #bbb;
+      }
+    }
+  }
+}

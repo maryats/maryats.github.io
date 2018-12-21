@@ -6,7 +6,7 @@ html, body {
   position: absolute; }
 
 body {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   margin: 0 auto; }
   body.about, body.portfolio {
     display: flex;
@@ -24,14 +24,14 @@ p {
   line-height: 1.4rem; }
 
 .colophon {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: smaller; }
 
 .top-description p {
   margin-top: 0; }
 
 ::selection {
-  background: #19a89c;
+  background: #45ada8;
   color: white; }
 
 :focus {
@@ -40,18 +40,21 @@ p {
 button {
   background: black;
   color: white;
-  font-family: 'Source Code Pro', monospace;
+  cursor: pointer;
+  font-family: "Source Code Pro", monospace;
   font-size: inherit;
   border: none;
   border-radius: 5px;
   padding: 8px 10px; }
+  button:hover {
+    background-color: #333; }
 
 img {
   width: 100%; }
 
 a {
   color: #757575;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   text-decoration: none; }
   a:visited {
     color: #757575; }

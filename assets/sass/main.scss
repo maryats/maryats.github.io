@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: $font-main;
   margin: 0 auto;
 
   &.about,
@@ -41,7 +41,7 @@ p {
 }
 
 .colophon {
-  font-family: 'Source Code Pro', monospace;
+  font-family: $font-accent;
   font-size: smaller;
 }
 
@@ -61,11 +61,16 @@ p {
 button {
   background: black;
   color: white;
-  font-family: 'Source Code Pro', monospace;
+  cursor: pointer;
+  font-family: $font-accent;
   font-size: inherit;
   border: none;
   border-radius: 5px;
   padding: 8px 10px;
+
+  &:hover {
+    background-color: #333;
+  }
 }
 
 img {
@@ -74,7 +79,7 @@ img {
 
 a {
   color: $link-color;
-  font-family: 'Source Code Pro', monospace;
+  font-family: $font-accent;
   text-decoration: none;
 
   &:visited {

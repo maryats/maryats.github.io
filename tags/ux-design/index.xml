@@ -6,10 +6,19 @@
     <description>Recent content in Ux Design on Marie Yatsyk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 May 2017 01:02:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 12 Dec 2018 00:03:42 -0500</lastBuildDate>
     
 	<atom:link href="http://marieyatsyk.com/tags/ux-design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>f(x) foods</title>
+      <link>http://marieyatsyk.com/portfolio/fx-foods/</link>
+      <pubDate>Wed, 12 Dec 2018 00:03:42 -0500</pubDate>
+      
+      <guid>http://marieyatsyk.com/portfolio/fx-foods/</guid>
+      <description>In Fall 2018, I worked as a Studio Developer for Scout. In three months, our five-person student team (three designers, two developers) created a new brand identity and assets, packaging, a brand book, and a fully-functional marketing and e-commerce website for our client – a young granola bar company started by a Northeastern alumna.  For the first half of the semester I focused on user experience design, helping create lo-fi packaging and website wireframes in addition to conducting user research and iterating on logo designs.</description>
+    </item>
     
     <item>
       <title>TripKick Travel Sidekick App Design</title>

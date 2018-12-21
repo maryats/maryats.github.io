@@ -6,10 +6,19 @@
     <description>Recent content in Information Design on Marie Yatsyk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Nov 2018 19:30:54 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 08 Dec 2018 23:13:39 -0500</lastBuildDate>
     
 	<atom:link href="http://marieyatsyk.com/tags/information-design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Philippines Country Data</title>
+      <link>http://marieyatsyk.com/portfolio/country-data/</link>
+      <pubDate>Sat, 08 Dec 2018 23:13:39 -0500</pubDate>
+      
+      <guid>http://marieyatsyk.com/portfolio/country-data/</guid>
+      <description>  This poster was created for the Information Design course at Northeastern University. We were asked to present 30 kinds of information about a country.  </description>
+    </item>
     
     <item>
       <title>How to Make Jam</title>
@@ -17,7 +26,7 @@
       <pubDate>Tue, 13 Nov 2018 19:30:54 -0500</pubDate>
       
       <guid>http://marieyatsyk.com/portfolio/jam/</guid>
-      <description>This poster was created for the information design class at Northeastern University. The goal was to show a process that had at least 10 steps, using as few words as possible. I used watercolors to illustrate each step of the process.
+      <description>This poster was created for the information design class at Northeastern University. We were asked to show a process with at least 10 steps, using as few words as possible. I used watercolors to illustrate each step of the process.
 Colophon: Playfair Display</description>
     </item>
     

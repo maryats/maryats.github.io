@@ -112,3 +112,40 @@ body {
     }
   }
 }
+
+/* device mocks  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.marvel-device-container {
+  margin-bottom: -470px;
+  overflow: hidden;
+
+  @include sm-up() {
+    margin-bottom: -600px;
+  }
+
+  @include md-up() {
+    margin-bottom: -470px;
+  }
+}
+
+.marvel-device.ipad {
+  transform-origin: 0 0;
+  transform: scale(0.48);
+  margin-left: 10%;
+  margin-right: -10%;
+
+  @include xs-up() {
+    margin-left: 25%;
+    margin-right: -25%;
+  }
+
+  @include sm-up() {
+    transform: scale(0.36);
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @include md-up() {
+    transform: scale(.5);
+  }
+}

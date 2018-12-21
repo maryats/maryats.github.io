@@ -1,6 +1,14 @@
 @import "variables";
 @import "mixins";
 
+/* responsive  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.col-xs-0 {
+  @include xs-down() {
+    display: none;
+  }
+}
+
+
 /* utilities - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 html, body {
   height: 100%;

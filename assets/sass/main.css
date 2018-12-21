@@ -1,3 +1,10 @@
+/* responsive  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* box shadows - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* responsive  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+@media (max-width: 560px) {
+  .col-xs-0 {
+    display: none; } }
+
 /* utilities - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 html, body {
   height: 100%;
@@ -347,6 +354,8 @@ canvas {
     width: 1px;
     min-width: 100%; }
 
+/* responsive  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* box shadows - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* projects - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 .filters {
   width: 90%; }
@@ -485,5 +494,34 @@ body.section-axt .social-links {
     .sound-visualizer .iframe-wrapper,
     .weather-app .iframe-wrapper {
       padding-top: 100%; } }
+
+/* device mocks  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.marvel-device-container {
+  margin-bottom: -470px;
+  overflow: hidden; }
+  @media (min-width: 768px) {
+    .marvel-device-container {
+      margin-bottom: -600px; } }
+  @media (min-width: 992px) {
+    .marvel-device-container {
+      margin-bottom: -470px; } }
+
+.marvel-device.ipad {
+  transform-origin: 0 0;
+  transform: scale(0.48);
+  margin-left: 10%;
+  margin-right: -10%; }
+  @media (min-width: 560px) {
+    .marvel-device.ipad {
+      margin-left: 25%;
+      margin-right: -25%; } }
+  @media (min-width: 768px) {
+    .marvel-device.ipad {
+      transform: scale(0.36);
+      margin-left: 0;
+      margin-right: 0; } }
+  @media (min-width: 992px) {
+    .marvel-device.ipad {
+      transform: scale(0.5); } }
 
 /*# sourceMappingURL=main.css.map */

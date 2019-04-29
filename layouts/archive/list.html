@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="container archive-container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>Archive</h1>
+    </div>
+    {{ range .Site.RegularPages.GroupByDate "2006" }}
+    <div class="col-xs-12">
+      <h3>{{ .Key }}</h3>
+    </div>
+    <div class="col-xs-12">
+      <div class="row">
+        {{ range .Pages }}
+        <div class="col-xs-3 col-sm-2">
+          <a class="" href="{{.URL}}">
+            <img src="../portfolio/{{.File.BaseFileName}}/thumb.gif">
+          </a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

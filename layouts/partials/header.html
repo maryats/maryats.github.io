@@ -9,7 +9,7 @@
     </li>
     {{ $section := .Section | upper }}
     <div class="nav-items">
-      {{ range .Site.Sections}}
+      {{ range where .Site.Sections "Title" "!=" "Archive" }}
       {{ $sectionTitle := .Title | singularize}}
         {{ if ne $sectionTitle "Axt" }}
         <li class="{{$sectionTitle | lower}} {{if eq ($section | upper) ($sectionTitle | upper)}}active{{end}}">

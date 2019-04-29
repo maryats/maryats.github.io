@@ -1,0 +1,24 @@
+/* archive - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.archive {
+
+  &-container {
+    display: flex;
+    flex-flow: row wrap;
+
+    @media (min-width: $breakpoint-lg) {
+      max-width: 75%;
+    }
+
+    img {
+      @include portfolio-img(2%);
+      margin-bottom: 30px;
+    }
+  }
+
+  .project-title {
+    @include xs-down() {
+      display: none;
+    }
+  }
+}

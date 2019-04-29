@@ -1,96 +1,107 @@
 @import "variables";
 @import "mixins";
 
-/* projects - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+/* portfolio - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 
-.filters {
-  width: 90%;
+.portfolio {
+  .filters {
+    width: 90%;
 
-  @media screen and (min-width: $breakpoint-sm) {
-    width: 92%;
+    @media screen and (min-width: $breakpoint-sm) {
+      width: 92%;
+    }
+
+    @media screen and (min-width: $breakpoint-lg) {
+      width: 91%;
+    }
+
+    button {
+      background-color: transparent;
+      border: none;
+      color: black;
+      font-size: inherit;
+      font-style: italic;
+
+      &.active {
+        font-weight: bold;
+      }
+
+      &:hover {
+        cursor: pointer;
+        font-weight: bold;
+      }
+    }
   }
 
-  @media screen and (min-width: $breakpoint-lg) {
-    width: 91%;
+  #clear-filters {
+    min-width: 35px;
   }
 
-  button {
-    background-color: transparent;
-    border: none;
-    color: black;
-    font-size: inherit;
-    font-style: italic;
+  &-row {
+    padding: 0 16px;
+  }
 
-    &.active {
-      font-weight: bold;
+  .archive-link {
+    margin: 20px auto;
+    padding: 0 16px;
+    text-align: center;
+
+    @include xs-up() {
+      text-align: left;
+    }
+  }
+
+  a.project {
+    background-size: cover;
+    border-radius: 2%;
+    display: block;
+    float: left;
+    margin: 10px;
+    width: calc(95%);
+    height: calc(100% - 4px);
+
+    @media screen and (min-width: $breakpoint-xs) {
+      width: calc((100% - 40px) / 2);
+    }
+
+    @media screen and (min-width: $breakpoint-sm) {
+      width: calc((100% - 60px) / 3);
+    }
+
+    @media screen and (min-width: $breakpoint-lg) {
+      width: calc((100% - 80px) / 4);
+    }
+
+    .overlay {
+      border-radius: inherit;
+      height: calc(100% - 4px);
+      margin-bottom: -4px;
+      width: 100%;
+    }
+
+    img {
+      border-radius: inherit;
+      margin-bottom: -4px;
+      @include resting-box-shadow;
+    }
+
+    .title {
+      color: white;
+      left: 50%;
+      min-width: 75%;
+      opacity: 0;
+      position: absolute;
+      text-align: center;
+      text-shadow: 1px 1px 4px rgba(0,0,0,.2);
+      transform: translate(-50%, -50%);
+      top: 50%;
+      z-index: 1;
     }
 
     &:hover {
-      cursor: pointer;
-      font-weight: bold;
-    }
-  }
-}
-
-#clear-filters {
-  min-width: 35px;
-}
-
-.portfolio-container {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-a.project {
-  background-size: cover;
-  border-radius: 2%;
-  display: block;
-  float: left;
-  margin: 10px;
-  width: calc(95%);
-  height: calc(100% - 4px);
-
-  @media screen and (min-width: $breakpoint-xs) {
-    width: calc((100% - 40px) / 2);
-  }
-
-  @media screen and (min-width: $breakpoint-sm) {
-    width: calc((100% - 60px) / 3);
-  }
-
-  @media screen and (min-width: $breakpoint-lg) {
-    width: calc((100% - 80px) / 4);
-  }
-
-  .overlay {
-    border-radius: inherit;
-    height: calc(100% - 4px);
-    margin-bottom: -4px;
-    width: 100%;
-  }
-
-  img {
-    border-radius: inherit;
-    margin-bottom: -4px;
-    @include resting-box-shadow;
-  }
-
-  .title {
-    color: white;
-    left: 50%;
-    min-width: 75%;
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    text-shadow: 1px 1px 4px rgba(0,0,0,.2);
-    transform: translate(-50%, -50%);
-    top: 50%;
-    z-index: 1;
-  }
-
-  &:hover {
-    img {
-      @include hover-box-shadow;
+      img {
+        @include hover-box-shadow;
+      }
     }
   }
 }

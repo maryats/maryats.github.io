@@ -1,19 +1,31 @@
 {{ define "main" }}
 <div class="container portfolio-container">
-  <div class="filters">
-    <button id="clear-filters" onclick="clearFilters()" title="Show All">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="6 32 169 142"><path d="M172.8 36.1c-0.6-1.4-2-2.3-3.5-2.3H10.7c-1.5 0-2.9 0.9-3.5 2.3 -0.6 1.4-0.2 3 0.8 4.1l63.2 62.4v66.8c0 1.3 0.7 2.6 1.9 3.3 0.6 0.3 1.2 0.5 1.9 0.5 0.6 0 1.3-0.2 1.9-0.5l30-17.1c1.2-0.7 1.9-1.9 1.9-3.3v-49.7L172 40.2C173 39.2 173.4 37.5 172.8 36.1z"/></svg>
-    </button>
-    <button id="code" title="Show Code" class="option code" onclick="filterProjects(this.id)">code</button>
-    <button id="design" title="Show Design" class="option design" onclick="filterProjects(this.id)">design</button>
-    <button id="art" title="Show Art" class="option art" onclick="filterProjects(this.id)">art</button>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="filters">
+        <button id="clear-filters" onclick="clearFilters()" title="Show All">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="6 32 169 142"><path d="M172.8 36.1c-0.6-1.4-2-2.3-3.5-2.3H10.7c-1.5 0-2.9 0.9-3.5 2.3 -0.6 1.4-0.2 3 0.8 4.1l63.2 62.4v66.8c0 1.3 0.7 2.6 1.9 3.3 0.6 0.3 1.2 0.5 1.9 0.5 0.6 0 1.3-0.2 1.9-0.5l30-17.1c1.2-0.7 1.9-1.9 1.9-3.3v-49.7L172 40.2C173 39.2 173.4 37.5 172.8 36.1z"/></svg>
+        </button>
+        <button id="code" title="Show Code" class="option code" onclick="filterProjects(this.id)">code</button>
+        <button id="design" title="Show Design" class="option design" onclick="filterProjects(this.id)">design</button>
+        <button id="art" title="Show Art" class="option art" onclick="filterProjects(this.id)">art</button>
+      </div>
+    </div>
   </div>
-  {{ range .Pages.ByDate.Reverse }}
-
-  <a class="project {{ range .Params.tags}}{{replace . ` ` `-`}} {{end}}" href="{{.URL}}">
-    <div class="title">{{.Title}}</div>
-    <img src="{{.File.BaseFileName}}/thumb.gif">
-  </a>
-  {{ end }}
+  <div class="row portfolio-row">
+    {{ range .Pages.ByDate.Reverse }}
+    <a class="project {{ range .Params.tags}}{{replace . ` ` `-`}} {{end}}" href="{{.URL}}">
+      <div class="title">{{.Title}}</div>
+      <img src="{{.File.BaseFileName}}/thumb.gif">
+    </a>
+    {{ end }}
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="archive-link">
+        <a href="/archive">>>> Archive</a>
+      </div>
+    </div>
+  </div>
 </div>
 {{ end }}

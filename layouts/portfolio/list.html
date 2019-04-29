@@ -13,7 +13,7 @@
     </div>
   </div>
   <div class="row portfolio-row">
-    {{ range .Pages.ByDate.Reverse }}
+    {{ range where .Pages.ByDate.Reverse "Params.portfolio" true }}
     <a class="project {{ range .Params.tags}}{{replace . ` ` `-`}} {{end}}" href="{{.URL}}">
       <div class="title">{{.Title}}</div>
       <img src="{{.File.BaseFileName}}/thumb.gif">
@@ -23,7 +23,7 @@
   <div class="row">
     <div class="col-xs-12">
       <div class="archive-link">
-        <a href="/archive">>>> Archive</a>
+        <a href="/archive">>>> Project Archive</a>
       </div>
     </div>
   </div>

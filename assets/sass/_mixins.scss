@@ -1,5 +1,17 @@
 /* responsive  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+@mixin xxs-down() {
+  @media (max-width: $breakpoint-xxs + 1) {
+    @content;
+  }
+}
+
+@mixin xxs-up() {
+  @media (min-width: $breakpoint-xxs + 1) {
+    @content;
+  }
+}
+
 @mixin xs-down() {
   @media (max-width: $breakpoint-xs) {
     @content;

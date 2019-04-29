@@ -122,10 +122,13 @@ a {
   width: 100%; }
   .social-links a {
     display: inline-block;
-    height: 20px; }
+    height: 20px;
+    margin: 0 1px; }
     @media (max-width: 560px) {
       .social-links a {
         height: 30px; } }
+    .social-links a[title="Instagram"] {
+      margin-left: -1px; }
     .social-links a svg {
       fill: #ddd;
       height: 100%; }
@@ -509,8 +512,12 @@ body.section-axt .social-links {
 .marvel-device.ipad {
   transform-origin: 0 0;
   transform: scale(0.48);
-  margin-left: 10%;
-  margin-right: -10%; }
+  margin-left: 0;
+  margin-right: 0; }
+  @media (min-width: 321px) {
+    .marvel-device.ipad {
+      margin-left: 10%;
+      margin-right: -10%; } }
   @media (min-width: 560px) {
     .marvel-device.ipad {
       margin-left: 25%;

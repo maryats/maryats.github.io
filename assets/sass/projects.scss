@@ -131,8 +131,13 @@ body {
 .marvel-device.ipad {
   transform-origin: 0 0;
   transform: scale(0.48);
-  margin-left: 10%;
-  margin-right: -10%;
+  margin-left: 0;
+  margin-right: 0;
+
+  @include xxs-up() {
+    margin-left: 10%;
+    margin-right: -10%;
+  }
 
   @include xs-up() {
     margin-left: 25%;

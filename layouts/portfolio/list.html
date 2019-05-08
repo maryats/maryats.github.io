@@ -15,7 +15,6 @@
   <div class="row portfolio-row">
     {{ range where .Pages.ByDate.Reverse "Params.portfolio" true }}
     <a class="project {{ range .Params.tags}}{{replace . ` ` `-`}} {{end}}" href="{{.URL}}">
-      <div class="title">{{.Title}}</div>
       <img src="{{.File.BaseFileName}}/thumb.gif">
     </a>
     {{ end }}

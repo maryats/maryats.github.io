@@ -2,12 +2,17 @@
 @import "mixins";
 
 /* responsive  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-.col-xs-0 {
+.hide-at-xs-down {
   @include xs-down() {
     display: none;
   }
 }
 
+.hide-at-sm-down {
+  @include sm-down() {
+    display: none;
+  }
+}
 
 /* utilities - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 html, body {
@@ -48,6 +53,11 @@ p {
   line-height: 1.4rem;
 }
 
+.caption {
+  font-size: 12px;
+  margin: 0;
+}
+
 .colophon {
   font-family: $font-accent;
   font-size: smaller;
@@ -83,6 +93,10 @@ button {
 
 img {
   width: 100%;
+}
+
+p a {
+  margin: 0 2px;
 }
 
 a {

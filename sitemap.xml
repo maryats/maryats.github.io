@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://marieyatsyk.com/portfolio/when-one-door-closes/</loc>
+    <lastmod>2019-04-19T00:21:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marieyatsyk.com/portfolio/in-good-spirits/</loc>
+    <lastmod>2019-01-27T00:18:42-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://marieyatsyk.com/about/</loc>
     <lastmod>2018-12-18T18:33:03-05:00</lastmod>
   </url>
@@ -129,7 +139,7 @@
   
   <url>
     <loc>http://marieyatsyk.com/tags/art/</loc>
-    <lastmod>2018-11-13T19:30:54-05:00</lastmod>
+    <lastmod>2019-04-19T00:21:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -164,13 +174,19 @@
   
   <url>
     <loc>http://marieyatsyk.com/tags/design/</loc>
-    <lastmod>2018-12-12T00:03:42-05:00</lastmod>
+    <lastmod>2019-04-19T00:21:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://marieyatsyk.com/tags/digital-art/</loc>
     <lastmod>2015-09-22T01:05:30-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://marieyatsyk.com/tags/engineering/</loc>
+    <lastmod>2019-04-19T00:21:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -182,7 +198,7 @@
   
   <url>
     <loc>http://marieyatsyk.com/tags/game-design/</loc>
-    <lastmod>2017-01-22T00:56:22-05:00</lastmod>
+    <lastmod>2019-01-27T00:18:42-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -236,7 +252,7 @@
   
   <url>
     <loc>http://marieyatsyk.com/portfolio/</loc>
-    <lastmod>2018-12-12T00:03:42-05:00</lastmod>
+    <lastmod>2019-04-19T00:21:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -255,6 +271,12 @@
   <url>
     <loc>http://marieyatsyk.com/tags/print-making/</loc>
     <lastmod>2014-01-17T00:46:18-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://marieyatsyk.com/tags/sculpture/</loc>
+    <lastmod>2019-04-19T00:21:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   

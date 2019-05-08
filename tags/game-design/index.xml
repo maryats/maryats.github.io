@@ -6,10 +6,19 @@
     <description>Recent content in Game Design on Marie Yatsyk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Jan 2017 00:56:22 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jan 2019 00:18:42 -0400</lastBuildDate>
     
 	<atom:link href="http://marieyatsyk.com/tags/game-design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>In Good Spirits</title>
+      <link>http://marieyatsyk.com/portfolio/in-good-spirits/</link>
+      <pubDate>Sun, 27 Jan 2019 00:18:42 -0400</pubDate>
+      
+      <guid>http://marieyatsyk.com/portfolio/in-good-spirits/</guid>
+      <description>For the 2019 Global Game Jam, I worked on a team with six other students to build a video game from scratch in 48 hours.  This year&#39;s theme was &#34;Home&#34;, and we were inspired by the idea of apartment buildings, where so many strangers live in close proximity but many of whom never even meet. We created In Good Spirits, a 2D puzzle game where you play as a ghost haunting an apartment building.</description>
+    </item>
     
     <item>
       <title>Spooky FM Video Game</title>

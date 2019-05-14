@@ -49,10 +49,15 @@ body {
 
 .in-good-spirits, 
 .shout-your-worth,
-.spookyfm,
+.spookyfm {
+  .iframe-wrapper {
+    padding-top: 52%;
+  }
+}
+
 .starlings {
   .iframe-wrapper {
-    padding-top: 56.25%;
+    padding-top: 81%;
   }
 }
 

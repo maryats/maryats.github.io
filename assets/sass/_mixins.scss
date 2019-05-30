@@ -62,6 +62,10 @@
 
 /* box shadows - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+@mixin subtle-box-shadow {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+}
+
 @mixin inner-box-shadow($size, $color) {
   box-shadow: inset $size 0 $color,
   inset 0 $size $color,

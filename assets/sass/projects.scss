@@ -1,5 +1,5 @@
 img.bordered-image {
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+  @include subtle-box-shadow();
 }
 
 body {

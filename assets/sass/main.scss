@@ -85,6 +85,7 @@ button {
   border: none;
   border-radius: 5px;
   padding: 8px 10px;
+  @include subtle-box-shadow;
 
   &:hover {
     background-color: #333;
@@ -128,6 +129,11 @@ blockquote {
     margin-top: 1rem;
     font-weight: bold;
     font-size: 0.9rem;
+  }
+
+  &.pullquote {
+    font-weight: bold;
+    line-height: 1.4rem;
   }
 }
 

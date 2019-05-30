@@ -6,10 +6,20 @@
     <description>Recent content in Design on Marie Yatsyk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Apr 2019 00:21:40 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2019 22:26:52 -0400</lastBuildDate>
     
 	<atom:link href="http://marieyatsyk.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shout Your Worth</title>
+      <link>http://marieyatsyk.com/portfolio/shout-your-worth/</link>
+      <pubDate>Thu, 09 May 2019 22:26:52 -0400</pubDate>
+      
+      <guid>http://marieyatsyk.com/portfolio/shout-your-worth/</guid>
+      <description>Shout Your Worth is a game-like toolkit to help you communicate your value. It teaches the value statement format for talking about their accomplishments — which is a proven technique taught in AAUW salary negotiation workshops.  Shout Your Worth was created for the Interaction Design Senior Capstone team project at Northeastern University.
+ ShoutYourWorth.com       Players craft value statements using Accomplishment, Skill, and Result cards, then share real-world experiences that illustrate those value statements.</description>
+    </item>
     
     <item>
       <title>When One Door Closes, Another Opens</title>
@@ -17,7 +27,7 @@
       <pubDate>Fri, 19 Apr 2019 00:21:40 -0400</pubDate>
       
       <guid>http://marieyatsyk.com/portfolio/when-one-door-closes/</guid>
-      <description>I created an interactive sculpture inspired by this quote: When one door closes, another opens; but we often look so long and so regretfully upon the closed door that we do not see the one which has opened for us. — Alexander Graham Bell  I wanted to create a piece that would illustrate Bell&#39;s quote, and that audiences could interact and play with. I designed the sculpture using SketchUp and fabricated it using a laser cutter, which I learned how to use as part of the 3D Fundamentals course at Northeastern University.</description>
+      <description>I created an interactive sculpture inspired by this quote: When one door closes, another opens; but we often look so long and so regretfully upon the closed door that we do not see the one which has opened for us. — Alexander Graham Bell  This quote felt very relevant to my senior semester of college, and I wanted to create a playful piece that invited audiences to interact and engage with it while being self-reflective.</description>
     </item>
     
     <item>
@@ -55,7 +65,7 @@ Colophon: Playfair Display</description>
       
       <guid>http://marieyatsyk.com/portfolio/3-trips/</guid>
       <description>This piece presents information about three trips: from my apartment to a classroom, from my apartment to my parents&#39; home in New York, and from New York to Moscow.
- This piece was created for the information design class at Northeastern University, and is designed to be viewed as an accordion with 7 panels.</description>
+ It was created for the information design class at Northeastern University, and is designed to be viewed as an accordion with 7 panels.</description>
     </item>
     
     <item>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head>
+<html lang="en"><head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,minimum-scale=1">
   <title>Marie Yatsyk</title>
@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="/css/hamburgers.css" type="text/css">
   
   
-  <link rel="stylesheet" href="http://marieyatsyk.com/sass/main.min.87d2d0876c0485d84047dcc55c7a1303e0e10b993c50284dbbc5f07dccd83fb0.css">
+  <link rel="stylesheet" href="http://marieyatsyk.com/sass/main.min.413112a207169e143addfc323f8fda48b40881f9a64b3c874046d73cc5e16e87.css">
   
   <link rel="apple-touch-icon" sizes="180x180" href="http://marieyatsyk.com//favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="http://marieyatsyk.com//favicons/favicon-32x32.png">
@@ -26,9 +26,11 @@
     <button class="hamburger hamburger--squeeze pull-right" type="button">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
-    <li class="nav-brand">
-      <a href="http://marieyatsyk.com/"><img class="nav-logo" src="/images/mmy-logo.png"></a>
-      <a class="nav-title" href="http://marieyatsyk.com/">Marie Yatsyk</a>
+    <li class="nav-brand-container">
+      <a class="nav-brand" href="http://marieyatsyk.com/" aria-label="Home">
+        <img class="nav-logo" src="/images/mmy-logo.png">
+        <span class="nav-title" href="http://marieyatsyk.com/">Marie Yatsyk</span>
+      </a>
     </li>
     
     <div class="nav-items">
@@ -36,21 +38,21 @@
       
         
         <li class="about ">
-          <a href="/about/">About</a>
+          <a href="/about/" aria-label='About'>About</a>
         </li>
         
       
       
         
         <li class="blog ">
-          <a href="/blog/">Blog</a>
+          <a href="/blog/" aria-label='Blog'>Blog</a>
         </li>
         
       
       
         
         <li class="portfolio active">
-          <a href="/portfolio/">Work</a>
+          <a href="/portfolio/" aria-label='Work'>Work</a>
         </li>
         
       
@@ -61,78 +63,78 @@
   <div class="row">
     <div class="col-xs-12">
       <div class="filters">
-        <button id="clear-filters" onclick="clearFilters()" title="Show All">
+        <button id="clear-filters" onclick="clearFilters()" title="Show all projects" aria-label="Show all projects">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="6 32 169 142"><path d="M172.8 36.1c-0.6-1.4-2-2.3-3.5-2.3H10.7c-1.5 0-2.9 0.9-3.5 2.3 -0.6 1.4-0.2 3 0.8 4.1l63.2 62.4v66.8c0 1.3 0.7 2.6 1.9 3.3 0.6 0.3 1.2 0.5 1.9 0.5 0.6 0 1.3-0.2 1.9-0.5l30-17.1c1.2-0.7 1.9-1.9 1.9-3.3v-49.7L172 40.2C173 39.2 173.4 37.5 172.8 36.1z"/></svg>
         </button>
-        <button id="code" title="Show Code" class="option code" onclick="filterProjects(this.id)">code</button>
-        <button id="design" title="Show Design" class="option design" onclick="filterProjects(this.id)">design</button>
-        <button id="art" title="Show Art" class="option art" onclick="filterProjects(this.id)">art</button>
+        <button id="code" title="Show coding projects" aria-label="Show coding projects" class="option code" onclick="filterProjects(this.id)">code</button>
+        <button id="design" title="Show design projects" aria-label="Show design projects" class="option design" onclick="filterProjects(this.id)">design</button>
+        <button id="art" title="Show art projects" aria-label="Show art projects" class="option art" onclick="filterProjects(this.id)">art</button>
       </div>
     </div>
   </div>
   <div class="row portfolio-row">
     
-    <a class="project art sculpture " href="/portfolio/starlings/">
+    <a class="project art sculpture " href="/portfolio/starlings/" aria-label="Starlings">
       <img src="starlings/thumb.gif">
     </a>
     
-    <a class="project design game-design print-design " href="/portfolio/shout-your-worth/">
+    <a class="project design game-design print-design " href="/portfolio/shout-your-worth/" aria-label="Shout Your Worth">
       <img src="shout-your-worth/thumb.gif">
     </a>
     
-    <a class="project art design engineering sculpture " href="/portfolio/when-one-door-closes/">
+    <a class="project art design engineering sculpture " href="/portfolio/when-one-door-closes/" aria-label="When One Door Closes, Another Opens">
       <img src="when-one-door-closes/thumb.gif">
     </a>
     
-    <a class="project art game-design " href="/portfolio/in-good-spirits/">
+    <a class="project art game-design " href="/portfolio/in-good-spirits/" aria-label="In Good Spirits">
       <img src="in-good-spirits/thumb.gif">
     </a>
     
-    <a class="project code design ux-design ui-design branding " href="/portfolio/fx-foods/">
+    <a class="project code design ux-design ui-design branding " href="/portfolio/fx-foods/" aria-label="f(x) foods">
       <img src="fx-foods/thumb.gif">
     </a>
     
-    <a class="project design information-design poster " href="/portfolio/country-data/">
+    <a class="project design information-design poster " href="/portfolio/country-data/" aria-label="Philippines Country Data">
       <img src="country-data/thumb.gif">
     </a>
     
-    <a class="project art design illustration information-design " href="/portfolio/jam/">
+    <a class="project art design illustration information-design " href="/portfolio/jam/" aria-label="How to Make Jam">
       <img src="jam/thumb.gif">
     </a>
     
-    <a class="project design information-design brochure " href="/portfolio/3-trips/">
+    <a class="project design information-design brochure " href="/portfolio/3-trips/" aria-label="Three Trips Visualization">
       <img src="3-trips/thumb.gif">
     </a>
     
-    <a class="project design app-design interaction-design ux-design ui-design " href="/portfolio/tripkick/">
+    <a class="project design app-design interaction-design ux-design ui-design " href="/portfolio/tripkick/" aria-label="TripKick Travel Sidekick App Design">
       <img src="tripkick/thumb.gif">
     </a>
     
-    <a class="project design information-design poster " href="/portfolio/climate-change/">
+    <a class="project design information-design poster " href="/portfolio/climate-change/" aria-label="Climate Change Poster">
       <img src="climate-change/thumb.gif">
     </a>
     
-    <a class="project design print-design " href="/portfolio/book-series/">
+    <a class="project design print-design " href="/portfolio/book-series/" aria-label="Book Cover Series">
       <img src="book-series/thumb.gif">
     </a>
     
-    <a class="project art game-design " href="/portfolio/spookyfm/">
+    <a class="project art game-design " href="/portfolio/spookyfm/" aria-label="Spooky FM Video Game">
       <img src="spookyfm/thumb.gif">
     </a>
     
-    <a class="project code " href="/portfolio/marketing-headline-generator/">
+    <a class="project code " href="/portfolio/marketing-headline-generator/" aria-label="B2B Marketing Headline Generator">
       <img src="marketing-headline-generator/thumb.gif">
     </a>
     
-    <a class="project design ui-design ux-design interaction-design " href="/portfolio/mindset/">
+    <a class="project design ui-design ux-design interaction-design " href="/portfolio/mindset/" aria-label="MindSet Web App Design">
       <img src="mindset/thumb.gif">
     </a>
     
-    <a class="project design typography " href="/portfolio/letterforms/">
+    <a class="project design typography " href="/portfolio/letterforms/" aria-label="Letterforms">
       <img src="letterforms/thumb.gif">
     </a>
     
-    <a class="project code " href="/portfolio/weather-app/">
+    <a class="project code " href="/portfolio/weather-app/" aria-label="Weather App">
       <img src="weather-app/thumb.gif">
     </a>
     
@@ -140,23 +142,23 @@
   <div class="row">
     <div class="col-xs-12">
       <div class="archive-link">
-        <a href="/archive">>>> Project Archive</a>
+        <a href="/archive" aria-label="Archive">>>> Archive</a>
       </div>
     </div>
   </div>
 </div>
 
   </div><div class="social-links">
-  <a href="https://www.linkedin.com/in/marieyatsyk" target="_blank" title="LinkedIn">
+  <a href="https://www.linkedin.com/in/marieyatsyk" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
   </a>
-  <a href="https://github.com/maryats" target="_blank" title="GitHub">
+  <a href="https://github.com/maryats" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.9 32.1"><path d="M16.4 0.2c-9 0-16.3 7.3-16.3 16.3 0 7.2 4.7 13.3 11.1 15.5 0.8 0.1 1.1-0.4 1.1-0.8 0-0.4 0-1.4 0-2.8 -4.5 1-5.5-2.2-5.5-2.2 -0.7-1.9-1.8-2.4-1.8-2.4 -1.5-1 0.1-1 0.1-1 1.6 0.1 2.5 1.7 2.5 1.7 1.5 2.5 3.8 1.8 4.7 1.4 0.1-1.1 0.6-1.8 1-2.2C9.8 23.2 6 21.8 6 15.6c0-1.8 0.6-3.2 1.7-4.4C7.5 10.8 7 9.2 7.9 6.9c0 0 1.4-0.4 4.5 1.7C13.6 8.2 15 8 16.4 8c1.4 0 2.8 0.2 4.1 0.5C23.6 6.5 25 6.9 25 6.9c0.9 2.2 0.3 3.9 0.2 4.3 1 1.1 1.7 2.6 1.7 4.4 0 6.3-3.8 7.6-7.4 8 0.6 0.5 1.1 1.5 1.1 3 0 2.2 0 3.9 0 4.5 0 0.4 0.3 0.9 1.1 0.8 6.5-2.2 11.1-8.3 11.1-15.5C32.7 7.4 25.4 0.2 16.4 0.2z"/></svg>
   </a>
-  <a href="http://mreatts.tumblr.com" target="_blank" title="Tumblr">
+  <a href="http://mreatts.tumblr.com" target="_blank" rel="noopener noreferrer" title="Tumblr" aria-label="Tumblr">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.9 156.8"><path d="M78.6 0C35.1 0 0 35.1 0 78.3s35.1 78.5 78.6 78.5c43.2 0 78.3-35.3 78.3-78.5C156.9 34.9 121.8 0 78.6 0zM102 123.5H86.7c-13.7 0-24-7.1-24-24V72.4H50.2V57.8C64 54.2 69.7 42.4 70.4 32.1h14.3v23.3h16.6v17H84.7V96c0 7.1 3.6 9.5 9.2 9.5h8.1V123.5z"/></svg>
   </a>
-  <a href="https://www.instagram.com/marie_yatsyk/" target="_blank" title="Instagram">
+  <a href="https://www.instagram.com/marie_yatsyk/" target="_blank" rel="noopener noreferrer" title="Instagram" aria-label="Instagram">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
   </a>
 </div>

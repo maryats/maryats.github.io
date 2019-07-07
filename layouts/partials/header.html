@@ -3,9 +3,11 @@
     <button class="hamburger hamburger--squeeze pull-right" type="button">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
-    <li class="nav-brand">
-      <a href="{{.Site.BaseURL}}"><img class="nav-logo" src="/images/mmy-logo.png"></a>
-      <a class="nav-title" href="{{.Site.BaseURL}}">Marie Yatsyk</a>
+    <li class="nav-brand-container">
+      <a class="nav-brand" href="{{.Site.BaseURL}}" aria-label="Home">
+        <img class="nav-logo" src="/images/mmy-logo.png">
+        <span class="nav-title" href="{{.Site.BaseURL}}">Marie Yatsyk</span>
+      </a>
     </li>
     {{ $section := .Section | upper }}
     <div class="nav-items">
@@ -13,7 +15,7 @@
       {{ $sectionTitle := .Title | singularize}}
         {{ if ne $sectionTitle "Axt" }}
         <li class="{{$sectionTitle | lower}} {{if eq ($section | upper) ($sectionTitle | upper)}}active{{end}}">
-          <a href="{{.URL}}">{{ if eq $sectionTitle "Portfolio"}}Work{{else}}{{$sectionTitle}}{{end}}</a>
+          <a href="{{.URL}}" aria-label='{{if eq $sectionTitle "Portfolio"}}Work{{else}}{{$sectionTitle}}{{end}}'>{{if eq $sectionTitle "Portfolio"}}Work{{else}}{{$sectionTitle}}{{end}}</a>
         </li>
         {{end}}
       {{ end }}

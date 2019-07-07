@@ -54,7 +54,7 @@ nav {
   }
 }
 
-.nav-brand {
+.nav-brand-container {
   align-items: center;
   display: flex;
   float: none;
@@ -69,6 +69,11 @@ nav {
   &:hover .nav-title {
     display: inline-block;
   }
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
 }
 
 .nav-logo {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 {{- partial "head.html" . -}}
 <body class="{{if ne .Section ``}}section-{{replace (.Section | singularize | lower ) ` ` `-`}} {{end}}{{if ne .BaseFileName `_index`}}{{.BaseFileName}} {{end}}{{.Page.Title | singularize | urlize}}">
 {{- partial "header.html" . -}}

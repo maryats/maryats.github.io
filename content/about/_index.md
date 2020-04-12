@@ -5,13 +5,13 @@ draft: false
 ---
 
 ## Marie Yatsyk
-#### web developer / designer / artist
+#### developer // designer // artist
 
-Hello! I'm a creative coder who is passionate about web development and designing clean, intuitive user interfaces.
+Hello! I'm a creative coder who is passionate about building useful things and designing clean, intuitive user interfaces.
 
-I also have over four years of experience in marketing, digital analytics, design, and software development.
-I'm currently completing my senior year at Northeastern University as a Computer Science and Interaction Design major.
+I work as a software engineer at Google, building hotel search features in the Google Maps Android app.
+I also have experience in marketing, digital analytics, and design.
 
-Until then, in my free time you can catch me sketching on the T, wandering through nature, or running.
+In my free time you can catch me digging in the garden, working on my next crafting project, or running. 🌿
 
 <a href="https://drive.google.com/file/d/0B733hSJtO6r3RkQwUFU2YmVVaXc/view?usp=sharing" target="_blank">>>> My Resume</a>

@@ -14,8 +14,8 @@
   </div>
   <div class="row portfolio-row">
     {{ range where .Pages.ByDate.Reverse "Params.portfolio" true }}
-    <a class="project {{ range .Params.tags}}{{replace . ` ` `-`}} {{end}}" href="{{.URL}}" aria-label="{{.Title}}">
-      <img src="{{.File.BaseFileName}}/thumb.gif">
+    <a class="project {{range .Params.tags}}{{replace . ` ` `-`}} {{end}}" href="{{.Permalink}}" aria-label="{{.Title}}">
+      <img src="{{with .File}}{{.BaseFileName}}{{end}}/thumb.gif">
     </a>
     {{ end }}
   </div>

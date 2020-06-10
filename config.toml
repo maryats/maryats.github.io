@@ -1,3 +1,4 @@
-baseURL = "http://marieyatsyk.com/"
+baseURL = "https://marieyatsyk.com/"
 languageCode = "en-us"
 title = "Marie Yatsyk"
+enableRobotsTXT = true

@@ -13,9 +13,10 @@
     <div class="nav-items">
       {{ range where .Site.Sections "Title" "!=" "Archive" }}
       {{ $sectionTitle := .Title | singularize}}
+      {{ $title := (cond (eq $sectionTitle "Portfolio") "Work" $sectionTitle)}}
         {{ if ne $sectionTitle "Axt" }}
         <li class="{{$sectionTitle | lower}} {{if eq ($section | upper) ($sectionTitle | upper)}}active{{end}}">
-          <a href="{{.URL}}" aria-label='{{if eq $sectionTitle "Portfolio"}}Work{{else}}{{$sectionTitle}}{{end}}'>{{if eq $sectionTitle "Portfolio"}}Work{{else}}{{$sectionTitle}}{{end}}</a>
+          <a href="{{.Permalink}}" aria-label='{{$title}}'>{{$title}}</a>
         </li>
         {{end}}
       {{ end }}

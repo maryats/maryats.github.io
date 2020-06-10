@@ -7,7 +7,7 @@
   <!-- style sheets -->
   <link rel="stylesheet" href="/css/flexboxgrid.css" type="text/css">
   <link rel="stylesheet" href="/css/hamburgers.css" type="text/css">
-  {{ if in .URL "fx-foods"}}
+  {{ if in .Permalink "fx-foods"}}
   <link rel="stylesheet" href="/css/devices.css" type="text/css">
   {{ end }}
   {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}

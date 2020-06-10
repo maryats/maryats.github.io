@@ -12,8 +12,8 @@
       <div class="row">
         {{ range .Pages }}
         <div class="col-xs-6 col-sm-3 col-md-2">
-          <a class="" href="{{.URL}}" aria-label="{{.Title}}">
-            <img src="../portfolio/{{.File.BaseFileName}}/thumb.gif">
+          <a class="" href="{{.Permalink}}" aria-label="{{.Title}}">
+            <img src="../portfolio/{{ with .File }}{{ .BaseFileName }}{{ end }}/thumb.gif">
           </a>
         </div>
         {{ end }}

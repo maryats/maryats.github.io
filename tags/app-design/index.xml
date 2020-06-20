@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>App Design on Marie Yatsyk</title>
-    <link>http://marieyatsyk.com/tags/app-design/</link>
-    <description>Recent content in App Design on Marie Yatsyk</description>
+    <title>app design on Marie Yatsyk</title>
+    <link>https://marieyatsyk.com/tags/app-design/</link>
+    <description>Recent content in app design on Marie Yatsyk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 May 2017 01:02:00 -0500</lastBuildDate>
     
-	<atom:link href="http://marieyatsyk.com/tags/app-design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marieyatsyk.com/tags/app-design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TripKick Travel Sidekick App Design</title>
-      <link>http://marieyatsyk.com/portfolio/tripkick/</link>
+      <link>https://marieyatsyk.com/portfolio/tripkick/</link>
       <pubDate>Wed, 10 May 2017 01:02:00 -0500</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/tripkick/</guid>
+      <guid>https://marieyatsyk.com/portfolio/tripkick/</guid>
       <description>TripKick is a travel sidekick app that helps streamline the trip-planning process from research to on-the-go.
 Users start by collecting information about hotels, flights trip destinations in a browser extension / web application. From there, they can create a trip itinerary, and install the TripKick mobile app.
 In the time leading up to the trip, TripKick notifies users of dropped prices and discounts for their travel plans.

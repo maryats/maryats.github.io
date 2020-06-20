@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ux Design on Marie Yatsyk</title>
-    <link>http://marieyatsyk.com/tags/ux-design/</link>
-    <description>Recent content in Ux Design on Marie Yatsyk</description>
+    <title>ux design on Marie Yatsyk</title>
+    <link>https://marieyatsyk.com/tags/ux-design/</link>
+    <description>Recent content in ux design on Marie Yatsyk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Dec 2018 00:03:42 -0500</lastBuildDate>
     
-	<atom:link href="http://marieyatsyk.com/tags/ux-design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marieyatsyk.com/tags/ux-design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>f(x) foods</title>
-      <link>http://marieyatsyk.com/portfolio/fx-foods/</link>
+      <link>https://marieyatsyk.com/portfolio/fx-foods/</link>
       <pubDate>Wed, 12 Dec 2018 00:03:42 -0500</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/fx-foods/</guid>
+      <guid>https://marieyatsyk.com/portfolio/fx-foods/</guid>
       <description>In Fall 2018, I worked as a Studio Developer for Scout. In four months, our five-person student team (three designers, two developers) created a new brand identity and assets, packaging, a brand book, and a fully-functional marketing and e-commerce website for our client – a young granola bar company started by a Northeastern alumna.  For the first half of the semester I focused on user experience design, helping create lo-fi packaging and website wireframes in addition to conducting user research and iterating on logo designs.</description>
     </item>
     
     <item>
       <title>TripKick Travel Sidekick App Design</title>
-      <link>http://marieyatsyk.com/portfolio/tripkick/</link>
+      <link>https://marieyatsyk.com/portfolio/tripkick/</link>
       <pubDate>Wed, 10 May 2017 01:02:00 -0500</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/tripkick/</guid>
+      <guid>https://marieyatsyk.com/portfolio/tripkick/</guid>
       <description>TripKick is a travel sidekick app that helps streamline the trip-planning process from research to on-the-go.
 Users start by collecting information about hotels, flights trip destinations in a browser extension / web application. From there, they can create a trip itinerary, and install the TripKick mobile app.
 In the time leading up to the trip, TripKick notifies users of dropped prices and discounts for their travel plans.
@@ -34,10 +34,10 @@ In the time leading up to the trip, TripKick notifies users of dropped prices an
     
     <item>
       <title>MindSet Web App Design</title>
-      <link>http://marieyatsyk.com/portfolio/mindset/</link>
+      <link>https://marieyatsyk.com/portfolio/mindset/</link>
       <pubDate>Sat, 17 Dec 2016 00:48:41 -0500</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/mindset/</guid>
+      <guid>https://marieyatsyk.com/portfolio/mindset/</guid>
       <description>MindSet is a mood and habit tracking web app that aims to help users manage their stress by allowing them to track their weekly schedule (calendar data), to-do lists, and habits as well as other factors that affect their mood (such as exercise, amount of sleep, caffeine intake, etc.).
 Based on that data, the app makes suggestions for what the user should do each week to help improve their mood (ex: take a 20 minute nap on certain days, limit caffeine to no more than 2 cups a day, sit in the sun)</description>
     </item>

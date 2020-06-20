@@ -1,78 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Art on Marie Yatsyk</title>
-    <link>http://marieyatsyk.com/tags/art/</link>
-    <description>Recent content in Art on Marie Yatsyk</description>
+    <title>art on Marie Yatsyk</title>
+    <link>https://marieyatsyk.com/tags/art/</link>
+    <description>Recent content in art on Marie Yatsyk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 May 2019 23:05:24 -0400</lastBuildDate>
     
-	<atom:link href="http://marieyatsyk.com/tags/art/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marieyatsyk.com/tags/art/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Starlings</title>
-      <link>http://marieyatsyk.com/portfolio/starlings/</link>
+      <link>https://marieyatsyk.com/portfolio/starlings/</link>
       <pubDate>Sun, 12 May 2019 23:05:24 -0400</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/starlings/</guid>
+      <guid>https://marieyatsyk.com/portfolio/starlings/</guid>
       <description>This abstract sculpture was inspired by the movement of starling murmurations. It was created as an assignment for the 3D Fundamentals course at Northeastern University.   Process For inspiration, I watched the video below on repeat and sketched the abstract forms of the flying birds. I then carved my favorite sketch into floral foam, after which I used a 3D scanner to digitize the sculpture, and sliced it into 52 pieces for the laser cutter using SketchUp.</description>
     </item>
     
     <item>
       <title>When One Door Closes, Another Opens</title>
-      <link>http://marieyatsyk.com/portfolio/when-one-door-closes/</link>
+      <link>https://marieyatsyk.com/portfolio/when-one-door-closes/</link>
       <pubDate>Fri, 19 Apr 2019 00:21:40 -0400</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/when-one-door-closes/</guid>
+      <guid>https://marieyatsyk.com/portfolio/when-one-door-closes/</guid>
       <description>I created an interactive sculpture inspired by this quote: When one door closes, another opens; but we often look so long and so regretfully upon the closed door that we do not see the one which has opened for us. — Alexander Graham Bell  This quote felt very relevant to my senior semester of college, and I wanted to create a playful piece that invited audiences to interact and engage with it while being self-reflective.</description>
     </item>
     
     <item>
       <title>In Good Spirits</title>
-      <link>http://marieyatsyk.com/portfolio/in-good-spirits/</link>
+      <link>https://marieyatsyk.com/portfolio/in-good-spirits/</link>
       <pubDate>Sun, 27 Jan 2019 00:18:42 -0400</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/in-good-spirits/</guid>
+      <guid>https://marieyatsyk.com/portfolio/in-good-spirits/</guid>
       <description>For the 2019 Global Game Jam, I worked on a team with six other students to build a video game from scratch in 48 hours.  This year&#39;s theme was &#34;Home&#34;, and we were inspired by the idea of apartment buildings, where so many strangers live in close proximity but many of whom never even meet. We created In Good Spirits, a 2D puzzle game where you play as a ghost haunting an apartment building.</description>
     </item>
     
     <item>
       <title>How to Make Jam</title>
-      <link>http://marieyatsyk.com/portfolio/jam/</link>
+      <link>https://marieyatsyk.com/portfolio/jam/</link>
       <pubDate>Tue, 13 Nov 2018 19:30:54 -0500</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/jam/</guid>
+      <guid>https://marieyatsyk.com/portfolio/jam/</guid>
       <description>This poster was created for the information design class at Northeastern University. We were asked to show a process with at least 10 steps, using as few words as possible. I used watercolors to illustrate each step of the process.
 Colophon: Playfair Display</description>
     </item>
     
     <item>
       <title>Spooky FM Video Game</title>
-      <link>http://marieyatsyk.com/portfolio/spookyfm/</link>
+      <link>https://marieyatsyk.com/portfolio/spookyfm/</link>
       <pubDate>Sun, 22 Jan 2017 00:56:22 -0500</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/spookyfm/</guid>
+      <guid>https://marieyatsyk.com/portfolio/spookyfm/</guid>
       <description>Title screen art by R. Giraud     During the 2017 Global Game Jam, I worked on a team with six other students to build a video game from scratch in 48 hours.  We created Spooky FM, a 2D side-scrolling survival game where you play as a radio DJ who tries to appease an influx of monsters by playing their favorite music. Battle your station’s awful WiFI connection and your own caffeine dependency while making sure to fulfill audience requests to keep the ratings up!</description>
     </item>
     
     <item>
       <title>Northeastern University T-Shirt Design</title>
-      <link>http://marieyatsyk.com/portfolio/neu-shirt/</link>
+      <link>https://marieyatsyk.com/portfolio/neu-shirt/</link>
       <pubDate>Fri, 01 Apr 2016 00:51:19 -0500</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/neu-shirt/</guid>
+      <guid>https://marieyatsyk.com/portfolio/neu-shirt/</guid>
       <description>  Created for a contest organized by the Saint Stephen Street and Huntington (S.S. Huntington) dorms at Northeastern University.
   Process     </description>
     </item>
     
     <item>
       <title>Creative Coding Experiments</title>
-      <link>http://marieyatsyk.com/portfolio/creative-coding-experiments/</link>
+      <link>https://marieyatsyk.com/portfolio/creative-coding-experiments/</link>
       <pubDate>Wed, 23 Dec 2015 01:08:53 -0500</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/creative-coding-experiments/</guid>
+      <guid>https://marieyatsyk.com/portfolio/creative-coding-experiments/</guid>
       <description> Just a silly self-portrait created using canvas shapes. Try clicking my face!
    A zen, randomly-generated pattern inspired by a mermaid&#39;s scales.
   </description>
@@ -80,19 +80,19 @@ Colophon: Playfair Display</description>
     
     <item>
       <title>Anxious Tale</title>
-      <link>http://marieyatsyk.com/portfolio/anxious-tale/</link>
+      <link>https://marieyatsyk.com/portfolio/anxious-tale/</link>
       <pubDate>Mon, 30 Nov 2015 20:32:08 -0500</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/anxious-tale/</guid>
+      <guid>https://marieyatsyk.com/portfolio/anxious-tale/</guid>
       <description> This interactive narrative was created in response to the prompt &#34;elicit an emotion.&#34; I chose to explore the sensation of social anxiety. I also wanted to challenge myself to see if I could create a sense of unease and discomfort through very simple ASCII art-like illustrations.   Experience the story   </description>
     </item>
     
     <item>
       <title>Vector Art Experiments</title>
-      <link>http://marieyatsyk.com/portfolio/vector-art/</link>
+      <link>https://marieyatsyk.com/portfolio/vector-art/</link>
       <pubDate>Tue, 22 Sep 2015 01:05:30 -0500</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/vector-art/</guid>
+      <guid>https://marieyatsyk.com/portfolio/vector-art/</guid>
       <description>A portrait of one of my favorite musicians: Dessa.
       -- -- --   -- -- -- Each flower was meticulously drawn using tiny straight lines, as a challenge in using the Adobe Illustrator pen tool without drawing curves.
   </description>
@@ -100,10 +100,10 @@ Colophon: Playfair Display</description>
     
     <item>
       <title>There the form stood, motionless as the hill beneath.</title>
-      <link>http://marieyatsyk.com/portfolio/linocut-hill/</link>
+      <link>https://marieyatsyk.com/portfolio/linocut-hill/</link>
       <pubDate>Fri, 17 Jan 2014 00:46:18 -0500</pubDate>
       
-      <guid>http://marieyatsyk.com/portfolio/linocut-hill/</guid>
+      <guid>https://marieyatsyk.com/portfolio/linocut-hill/</guid>
       <description>This print was inspired by a passage in Thomas Hardy’s Return of the Native. It describes the lone figure of Eustacia Vye standing silhouetted on a barrow, while in the distance the other villages light bonfires, one by one, all across the heath.   This project was my first foray into linoleum printmaking, and it enabled me to play around with different color combinations as a way of conveying different atmospheres.</description>
     </item>
     

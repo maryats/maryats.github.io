@@ -12,8 +12,12 @@
 
     img {
       @include portfolio-img(2%);
-      margin-bottom: 30px;
     }
+  }
+
+  a.project {
+    display: block;
+    margin-bottom: 30px;
   }
 
   .project-title {

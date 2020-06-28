@@ -19,16 +19,16 @@
     }
 
     svg {
-      fill: #ddd;
+      fill: rgba($link-color, .2);
       height: 100%;
 
 
       &:visited {
-        fill: #ddd;
+        fill: rgba($link-color, .2);
       }
 
       &:hover, &:active {
-        fill: #bbb;
+        fill: rgba($link-hover-color, .5);
       }
     }
   }

@@ -1,8 +1,8 @@
 // colors
-$accent: #45ada8; //#19a89c
+$accent: #19a89c; // #45ada8;
 $accent-gray: #333;
 $link-color: #757575;
-$link-hover-color: #333;
+$link-hover-color: #19a89c;
 
 $art-color: $accent;
 $code-color: $accent;
@@ -15,9 +15,9 @@ $header-height: 80px;
 // breakpoints
 $breakpoint-xxs: 320px;
 $breakpoint-xs: 560px;
-$breakpoint-sm: 768px; //48em;
-$breakpoint-md: 992px; //62em;
-$breakpoint-lg: 1200px; //75em;
+$breakpoint-sm: 768px;  // 48em;
+$breakpoint-md: 992px;  // 62em;
+$breakpoint-lg: 1200px; // 75em;
 
 // fonts
 $font-main: 'Libre Franklin', sans-serif;

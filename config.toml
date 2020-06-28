@@ -1,4 +1,5 @@
 baseURL = "https://marieyatsyk.com/"
 languageCode = "en-us"
 title = "Marie Yatsyk"
+googleAnalytics = "UA-81415714-1"
 enableRobotsTXT = true

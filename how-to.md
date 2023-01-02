@@ -51,3 +51,14 @@ The directory structure defines how Hugo generates the final website. See https:
     * **`nav.js`** - Mobile navigation bar functionality.
   * **`portfolio/`** - Contains sub-directories with images for each project page. Each non-draft project page must have a `thumb.gif` in its sub-directory; these are used for the portfolio gallery page.
 * **`deploy.sh`** - Commit changes, then run this script to generate the updated website to `public/`.
+
+## Page Properties
+
+Hugo supports setting properties for portfolio pages via Front Matter (https://gohugo.io/content-management/front-matter/).
+
+I use the following properties for portfolio pages:
+- title: Project title
+- date: Date the project was completed
+- draft: Determines whether Hugo builds the page to be accessible by users.
+- portfolio: Determines whether the page is shown in Portfolio or just in the Archive.
+- tags: main ones are [art, design, code]

@@ -6,19 +6,15 @@
     <description>Recent content in game design on Marie Yatsyk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 May 2019 22:26:52 -0400</lastBuildDate>
-    
-	<atom:link href="https://marieyatsyk.com/tags/game-design/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 09 May 2019 22:26:52 -0400</lastBuildDate><atom:link href="https://marieyatsyk.com/tags/game-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shout Your Worth</title>
       <link>https://marieyatsyk.com/portfolio/shout-your-worth/</link>
       <pubDate>Thu, 09 May 2019 22:26:52 -0400</pubDate>
       
       <guid>https://marieyatsyk.com/portfolio/shout-your-worth/</guid>
-      <description>Shout Your Worth is a game-like toolkit to help people communicate their value. It teaches the value statement format for talking about one&#39;s accomplishments, which is a proven technique taught in AAUW salary negotiation workshops.  Shout Your Worth was created for my Interaction Design capstone project at Northeastern University.
- ShoutYourWorth.com       Players craft value statements using Accomplishment, Skill, and Result cards, then share real-world experiences that illustrate those value statements.</description>
+      <description>Shout Your Worth is a game-like toolkit to help people communicate their value. It teaches the value statement format for talking about one&#39;s accomplishments, which is a proven technique taught in AAUW salary negotiation workshops. Shout Your Worth was created for my Interaction Design capstone project at Northeastern University.
+ShoutYourWorth.com Players craft value statements using Accomplishment, Skill, and Result cards, then share real-world experiences that illustrate those value statements. Collaborative gameplay creates a supportive, encouraging environment for players to practice this self-advocacy skill.</description>
     </item>
     
     <item>
@@ -27,7 +23,7 @@
       <pubDate>Sun, 27 Jan 2019 00:18:42 -0400</pubDate>
       
       <guid>https://marieyatsyk.com/portfolio/in-good-spirits/</guid>
-      <description>For the 2019 Global Game Jam, I worked on a team with six other students to build a video game from scratch in 48 hours.  The year&#39;s theme was &#34;Home&#34;, and we were inspired by the idea of apartment buildings, where so many strangers live in close proximity but many of whom never even meet. We created In Good Spirits, a 2D puzzle game where you play as a ghost haunting an apartment building.</description>
+      <description>For the 2019 Global Game Jam, I worked on a team with six other students to build a video game from scratch in 48 hours. The year&#39;s theme was &#34;Home&#34;, and we were inspired by the idea of apartment buildings, where so many strangers live in close proximity but many of whom never even meet. We created In Good Spirits, a 2D puzzle game where you play as a ghost haunting an apartment building.</description>
     </item>
     
     <item>
@@ -36,7 +32,7 @@
       <pubDate>Sun, 22 Jan 2017 00:56:22 -0500</pubDate>
       
       <guid>https://marieyatsyk.com/portfolio/spookyfm/</guid>
-      <description>Title screen art by R. Giraud     During the 2017 Global Game Jam, I worked on a team with six other students to build a video game from scratch in 48 hours.  We created Spooky FM, a 2D side-scrolling survival game where you play as a radio DJ who tries to appease an influx of monsters by playing their favorite music. Battle your station’s awful WiFI connection and your own caffeine dependency while making sure to fulfill audience requests to keep the ratings up!</description>
+      <description>Title screen art by R. Giraud During the 2017 Global Game Jam, I worked on a team with six other students to build a video game from scratch in 48 hours. We created Spooky FM, a 2D side-scrolling survival game where you play as a radio DJ who tries to appease an influx of monsters by playing their favorite music. Battle your station’s awful WiFI connection and your own caffeine dependency while making sure to fulfill audience requests to keep the ratings up!</description>
     </item>
     
   </channel>

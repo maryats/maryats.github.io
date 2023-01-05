@@ -1,293 +1,189 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://marieyatsyk.com/tags/art/</loc>
-    <lastmod>2019-05-12T23:05:24-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-29T22:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://marieyatsyk.com/tags/collage/</loc>
+    <lastmod>2022-01-29T22:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://marieyatsyk.com/portfolio/index-card-collage/</loc>
+    <lastmod>2022-01-29T22:00:00-04:00</lastmod>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/</loc>
-    <lastmod>2019-05-12T23:05:24-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-01-29T22:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://marieyatsyk.com/tags/</loc>
+    <lastmod>2022-01-29T22:00:00-04:00</lastmod>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/sculpture/</loc>
     <lastmod>2019-05-12T23:05:24-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/starlings/</loc>
     <lastmod>2019-05-12T23:05:24-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marieyatsyk.com/tags/</loc>
-    <lastmod>2019-05-12T23:05:24-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/design/</loc>
     <lastmod>2019-05-09T22:26:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/game-design/</loc>
     <lastmod>2019-05-09T22:26:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/print-design/</loc>
     <lastmod>2019-05-09T22:26:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/shout-your-worth/</loc>
     <lastmod>2019-05-09T22:26:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/engineering/</loc>
     <lastmod>2019-04-19T00:21:40-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/when-one-door-closes/</loc>
     <lastmod>2019-04-19T00:21:40-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/in-good-spirits/</loc>
     <lastmod>2019-01-27T00:18:42-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/about/</loc>
     <lastmod>2018-12-18T18:33:03-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/</loc>
     <lastmod>2018-12-18T18:33:03-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/branding/</loc>
     <lastmod>2018-12-12T00:03:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/code/</loc>
     <lastmod>2018-12-12T00:03:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/fx-foods/</loc>
     <lastmod>2018-12-12T00:03:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/ui-design/</loc>
     <lastmod>2018-12-12T00:03:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/ux-design/</loc>
     <lastmod>2018-12-12T00:03:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/information-design/</loc>
     <lastmod>2018-12-08T23:13:39-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/country-data/</loc>
     <lastmod>2018-12-08T23:13:39-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/poster/</loc>
     <lastmod>2018-12-08T23:13:39-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/jam/</loc>
     <lastmod>2018-11-13T19:30:54-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/illustration/</loc>
     <lastmod>2018-11-13T19:30:54-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/brochure/</loc>
     <lastmod>2018-11-12T20:31:59-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/3-trips/</loc>
     <lastmod>2018-11-12T20:31:59-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://marieyatsyk.com/tags/comics/</loc>
+    <lastmod>2018-07-31T22:19:32-04:00</lastmod>
+  </url><url>
+    <loc>https://marieyatsyk.com/portfolio/night-cat/</loc>
+    <lastmod>2018-07-31T22:19:32-04:00</lastmod>
+  </url><url>
     <loc>https://marieyatsyk.com/blog/</loc>
     <lastmod>2018-01-03T20:56:42-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/app-design/</loc>
     <lastmod>2017-05-10T01:02:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/interaction-design/</loc>
     <lastmod>2017-05-10T01:02:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/tripkick/</loc>
     <lastmod>2017-05-10T01:02:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/climate-change/</loc>
     <lastmod>2017-04-01T00:40:32-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/book-series/</loc>
     <lastmod>2017-03-25T20:32:25-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/spookyfm/</loc>
     <lastmod>2017-01-22T00:56:22-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/marketing-headline-generator/</loc>
     <lastmod>2016-12-27T01:17:17-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/mindset/</loc>
     <lastmod>2016-12-17T00:48:41-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/type-posters/</loc>
     <lastmod>2016-11-25T00:34:26-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/typography/</loc>
     <lastmod>2016-11-25T00:34:26-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/letterforms/</loc>
     <lastmod>2016-10-20T00:42:08-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/weather-app/</loc>
     <lastmod>2016-10-15T01:22:47-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/fashion/</loc>
     <lastmod>2016-04-01T00:51:19-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/neu-shirt/</loc>
     <lastmod>2016-04-01T00:51:19-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/creative-coding-experiments/</loc>
     <lastmod>2015-12-23T01:08:53-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/anxious-tale/</loc>
     <lastmod>2015-11-30T20:32:08-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/interactive-storytelling/</loc>
     <lastmod>2015-11-30T20:32:08-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/narrative/</loc>
     <lastmod>2015-11-30T20:32:08-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/music/</loc>
     <lastmod>2015-10-22T01:19:49-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/sound-visualizer/</loc>
     <lastmod>2015-10-22T01:19:49-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/digital-art/</loc>
     <lastmod>2015-09-22T01:05:30-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/vector-art/</loc>
     <lastmod>2015-09-22T01:05:30-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/marketing/</loc>
     <lastmod>2015-08-24T00:53:24-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/numa/</loc>
     <lastmod>2015-08-24T00:53:24-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/web-design/</loc>
     <lastmod>2015-08-24T00:53:24-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/fine-art/</loc>
     <lastmod>2014-01-17T00:46:18-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/linocut/</loc>
     <lastmod>2014-01-17T00:46:18-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/tags/print-making/</loc>
     <lastmod>2014-01-17T00:46:18-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/portfolio/linocut-hill/</loc>
     <lastmod>2014-01-17T00:46:18-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/archive/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://marieyatsyk.com/categories/</loc>
   </url>
-  
 </urlset>
